@@ -1,154 +1,282 @@
 @charset "UTF-8";
+/* STYLE FOR MAIN.PHP lines 364 - 338 */
 
-/* START STRUCTURE 
-465 lines
+/* === Base Styles === */
+body {
+    /* background-color: #ddd; */
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+/*
+ CSS for the main interaction
 */
-/* FROM Main Page */
+.multiswitch input {
+  position: absolute;
+  left: -200vw;
+}
 
-    /* .buttonnodeimage { */
-        /* max-width: 90%;  */
-        /* Adjust based on your requirement */
-        /* height: auto;  */
-        /* Maintain aspect ratio */
-        /* border: none;  */
-        /* Remove border if not needed */
-        /* Add any additional styles you want for your image buttons */
-    /* } */
+.multiswitch .slide-container {
+  position: relative;
+  display: flex;
+  max-width: 50em;
+  line-height: 2em;
+  /* don't allow highlighting the text inside the toggle */
+  user-select: none; 
+}
 
-.button6a{
-        /* background-color: #2A547E;
-        border-width: 1px;
-        border-radius: 10px;
-        color: #FFF;
-        font-size: 20px;
-        height:auto;
-        max-width:410px;
-        min-width:150px;
-        padding: 10px 10px;
-        text-align: center; */
-        white-space: normal;
-    } 
+.multiswitch .slide-container label {
+  /* Even though we're using "flex" to display, we have to assign widths so that we know exactly where to position the slide */
+  width: 50%;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  z-index: 2;
+}
 
-/* .button6{
-            background-color: #2A547E;
-            border-width: 1px;
-            border-radius: 1px;
-            color: #ddd;
-            font-size: 10px;
-            height:auto;
-            max-width:410px;
-            min-width:150px;
-            padding: 10px 10px;
-            text-align: center;
-            white-space: normal;
-            word-break: break-all;
-            overflow-wrap: break-word;
-            word-wrap: break-word;
-    } */
+.multiswitch .slide-container a {
+  position: absolute;
+  left: 50%;
+  z-index: 1;
+  height: 100%;
+  width: 50%;
+  transition: left 0.1s ease-out;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.15);
+}
 
-.buttonchatgpt{
-        background-color: #2A547E;
-        border-width: 1px;
-        border-radius: 10px;
-        color: #FFF;
-        font-size: 20px;
-        height:auto;
-        max-width:410px;
-        min-width:150px;
-        padding: 10px 10px;
-        text-align: center;
-        white-space: normal;
-    }
-.buttonalternativelanguage{
-        background-color: #2A547E;
-        border-width: 1px;
-        border-radius: 10px;
-        color: #FFF;
-        font-size: 20px;
-        height:auto;
-        max-width:410px;
-        min-width:150px;
-        padding: 10px 10px;
-        text-align: center;
-        white-space: normal;
-    }
-.buttonenternextlevel{
-        border-radius: 10px; 
-        background: lightblue; 
-        font-size : 28px; 
-        color:#2A547E;
-        word-break: break-all; 
-        overflow-wrap: break-word;
-        word-wrap: break-word;
-    }
-.learnmore{
-        border-radius: 10px; 
-        padding: 5px;
-        /* background: lightblue;  
-        background-color: #ddd;*/
-        background-color: lightblue;
-        font-size : 28px; 
-        color: #222;
-    }
-    
+/*
+  Auto adjusting widths
+*/
+.multiswitch label:nth-last-child(6),
+.multiswitch label:nth-last-child(6) ~ label,
+.multiswitch label:nth-last-child(6) ~ a {
+  width: 33.3334%;
 
-/* previus version */
-div.screen-top{
-    background-color:#444;
-    text-align:center;
-    height:50px;
-    border-radius:50px 50px 0px 0px;
-    }
-img{
-    width:100%;
-    /* radius:2px; */
-    border-radius:4px;
-    }
-input{
-    width:80%;
-    border-radius:4px;
-    }
-table{
-    text-align:center;
-    width:100%;
-    }
-p{
-    text-align:center;
-    }
-.center{
-    margin-left:auto;
-    margin-right:auto;
-    }
-div.center{
-    text-align:center;
-    }
-div.left{
-    text-align:left;
-    }
-td.center{
-    text-align:center;
-    }
-td.search{
-    background-color:#CDDEEE;
-    border: 2px solid #006;
-    padding: 5px;
-    height:auto;
-    }
-hr{
-    height:2px;
-    background-color:#2A547E;
-    } 
-.hr-blue{
-    height:6px;
-    background-color:#2A547E;
-    } 
-.hr-blue-3px{
-    height:2px;
-    background-color:#2A547E;
-    } 
-/* END STRUCTURE */
+}
 
-/* START BUTTONS */
+.multiswitch label:nth-last-child(8),
+.multiswitch label:nth-last-child(8) ~ label,
+.multiswitch label:nth-last-child(8) ~ a {
+  width: 25%;
+
+}
+
+.multiswitch label:nth-last-child(10),
+.multiswitch label:nth-last-child(10) ~ label,
+.multiswitch label:nth-last-child(10) ~ a {
+  width: 20%;
+}
+
+.multiswitch label:nth-last-child(12),
+.multiswitch label:nth-last-child(12) ~ label,
+.multiswitch label:nth-last-child(12) ~ a {
+  width: 16.6667%;
+}
+
+/*
+ Slider
+*/
+
+/* all options, first selected */
+.multiswitch input:checked ~ a {
+  left: 0;
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+/* 2 options, 2nd selected */
+.multiswitch label:nth-last-child(4) ~ input:nth-child(3):checked ~ a {
+  left: 50%;
+}
+/* 3 options, 2nd selected */
+.multiswitch label:nth-last-child(6) ~ input:nth-child(3):checked ~ a {
+  left: 33.3334%;
+}
+/* 3 options, 3rd selected */
+.multiswitch label:nth-last-child(6) ~ input:nth-child(5):checked ~ a {
+  left: 66.6667%;
+}
+/* 4 options, 2nd selected */
+.multiswitch label:nth-last-child(8) ~ input:nth-child(3):checked ~ a {
+  left: 25%;
+}
+/* 4 options, 3rd selected */
+.multiswitch label:nth-last-child(8) ~ input:nth-child(5):checked ~ a {
+  left: 50%;
+}
+/* 4 options, 4th selected */
+.multiswitch label:nth-last-child(8) ~ input:nth-child(7):checked ~ a {
+  left: 75%;
+}
+/* 5 options, 2nd selected */
+.multiswitch label:nth-last-child(10) ~ input:nth-child(3):checked ~ a {
+  left: 20%;
+}
+/* 5 options, 3rd selected */
+.multiswitch label:nth-last-child(10) ~ input:nth-child(5):checked ~ a {
+  left: 40%;
+}
+/* 5 options, 4th selected */
+.multiswitch label:nth-last-child(10) ~ input:nth-child(7):checked ~ a {
+  left: 60%;
+}
+/* 5 options, 5th selected */
+.multiswitch label:nth-last-child(10) ~ input:nth-child(9):checked ~ a {
+  left: 80%;
+}
+/* 6 options, 2nd selected */
+.multiswitch label:nth-last-child(12) ~ input:nth-child(3):checked ~ a {
+  left: 16.6667%;
+}
+/* 6 options, 3rd selected */
+.multiswitch label:nth-last-child(12) ~ input:nth-child(5):checked ~ a {
+  left: 33.3334%;
+}
+/* 6 options, 4th selected */
+.multiswitch label:nth-last-child(12) ~ input:nth-child(7):checked ~ a {
+  left: 50%;
+}
+/* 6 options, 5th selected */
+.multiswitch label:nth-last-child(12) ~ input:nth-child(9):checked ~ a {
+  left: 66.6667%;
+}
+/* 6 options, 6th selected */
+.multiswitch label:nth-last-child(12) ~ input:nth-child(11):checked ~ a {
+  left: 83.3334%;
+}
+
+/*
+  Slider shadows
+*/
+/* middle spots */
+.multiswitch input:not(:first-child):checked ~ a {
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.2),
+              -1px 0 0 rgba(0, 0, 0, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+/* last spots */
+.multiswitch label:nth-last-child(4) ~ input:nth-child(3):checked ~ a,
+.multiswitch label:nth-last-child(6) ~ input:nth-child(5):checked ~ a,
+.multiswitch label:nth-last-child(8) ~ input:nth-child(7):checked ~ a,
+.multiswitch label:nth-last-child(10) ~ input:nth-child(9):checked ~ a,
+.multiswitch label:nth-last-child(12) ~ input:nth-child(11):checked ~ a {
+  box-shadow: -1px 0 0 rgba(0, 0, 0, 0.2),
+              inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
+
+/*
+ RH Brand Styling
+*/
+body {
+  font: 16px/1.5em "Overpass", "Open Sans", Helvetica, sans-serif;
+  color: #333;
+}
+
+fieldset {
+  border: 0;
+  padding: 40;
+}
+
+fieldset legend {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.multiswitch .slide-container {
+  background: #333;
+  color: #fff;
+  transition: background 0.1s ease-out;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.multiswitch .slide-container label {
+  cursor: pointer;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
+}
+
+.multiswitch .slide-container a {
+  background: #0088ce;
+  border: 1px solid #005f90;
+}
+
+/* Stoplight theme */
+.multiswitch[data-theme="stoplight"] .slide-container > a {
+  background: #c00;
+  border-color: #8a0000;
+}
+
+.multiswitch[data-theme="stoplight"] input:not(:first-child):checked ~ a {
+  background: #ec7a08;
+  border-color: #bc6106;
+}
+
+.multiswitch[data-theme="stoplight"] label:nth-last-child(4) ~ input:nth-child(3):checked ~ a,
+.multiswitch[data-theme="stoplight"] label:nth-last-child(6) ~ input:nth-child(5):checked ~ a,
+.multiswitch[data-theme="stoplight"] label:nth-last-child(8) ~ input:nth-child(7):checked ~ a,
+.multiswitch[data-theme="stoplight"] label:nth-last-child(10) ~ input:nth-child(9):checked ~ a,
+.multiswitch[data-theme="stoplight"] label:nth-last-child(12) ~ input:nth-child(11):checked ~ a {
+  background: #3f9c35;
+  border-color: #307628;
+}
+
+/*
+ Horizontal layout
+*/
+.switch {
+  display: inline-flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/*
+ Because a11y
+*/
+.multiswitch input:focus ~ a {
+  outline: 2px solid #0088ce;
+}
+
+
+/*
+ Demo purposes only
+*/
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+fieldset {
+  margin-bottom: 3em;
+}
+/* === Blocks === */
+.block, .block-small {
+    background-color: #CDDEEE;
+    border: 2px solid #000;
+    border-radius: 1px;
+    font-size: 20px;
+    height: auto;
+    max-width: 350px;
+    min-width: 100px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+.block-small {
+    font-size: 30px;
+    max-width: 550px;
+    min-width: 150px;
+    padding: 1rem;
+}
+/* === Buttons === */
 .admin{
     border-radius: 10px;
     /* display: inline-block; */
@@ -157,133 +285,12 @@ hr{
     height: 65px;
     width: 250px;
     }
-.block{ 
-    background-color:#CDDEEE;
-    border:2px solid;
-    border-color: black;
-    border-radius:10px;
-    display:block;
-    font-size:20px;
-    height:auto;
-    max-width:350px;
-    Min-width:100px; 
-    padding:10px 20px;
-    text-align:center;
-    text-decoration:none;
-    white-space:normal; 
-    word-wrap:break-word;  
-    }
-.blocksmall{
-    background-color:#CDDEEE;
-    border:1px solid;
-    border-color: black;
-    border-radius:10px;
-    display:block;
-    font-size:30px;
-    height:auto;
-    max-width:550px;
-    min-width:350px;
-    padding:10px 20px;
-    text-align:center;
-    text-decoration:none;
-    white-space:normal;
-    word-wrap:break-word;
-    }
-.manualadd{
-    background-color: #397AD3;
-	color:#FFF;
-    border-radius: 20px;
-	min-width:70%;
-    height: 50px;
-    border: none;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 30px;
-    }	
-.add-suggested-term{  
-    background-color: #397AD3;
-    border: none;
-    border-radius: 10px;
-    color:#ffffff;
-    display:inline;
-    /* float:left; */
-    font-size: 45px;
-    /* height: auto; */
-    margin: 0 auto;
-    min-width: 70%;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    }
-.common-word {    
-    background-color: #f00;
-    border: none;
-    border-radius: 10px;
-    color: white;
-    display:inline;  
-    /* float:left; */
-    font-size: 45px;    
-    margin: 0 0 0 20px;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;	
-    }
-.reset-button{
-    background-color:#2A547E;
-    border-width:1px;
-    border-color:black;
-    border-radius:20px;
-    color: white;
-    display:inline-block;
-    font-size:15px;
-    height: auto;
-    padding:10px 20px;
-    text-align:center;
-    text-decoration:none;
-    width:auto;
-    }
-.button6{
-    /* BREADCRUMBS */
-    background-color: #2A547E;
-    border-width: 4px;
-    border-radius: 5px;
-    color: #FFF;
-    font-size: 60px;
-    height:auto;
-    max-width:550px;
-    min-width:350px;
-    padding: 10px 10px;
-    text-align: right;
-    white-space: normal;
-    }
-.buttonnodeimage{
-    height: auto;     
-    width:100%;
-    } 
 .adminbutton{
     font-size: 25px;
     text-align: center;
     padding: 5px 10px;
     width: auto;
     }
-.home-style-button{
-    background-color: purple;
-    border-radius:10px;
-    border-width:0px;
-    width: 180px;
-    }
-.show-hide-add-topic{
-    background-color: #254b70;
-    border-radius:10px;
-    color: white;
-	display: inline-block;  
-    font-size: 30px;	
-	height:auto;
-    padding: 1px 10px;
-    text-align:center;
-    width: auto;
-    }           
 .styletogglebutton {
     float: left;
     font-size: 30px;  
@@ -291,96 +298,179 @@ hr{
     text-align: center;
     width: 500px;
     }
+.button, .primary-button {
+    background-color: #7bf;
+    font-size: 20px;
+    border-radius: 1px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+}
+.aboutbutton{
+    background-color: #7bf;
+    border-radius: 1px;
+    display:inline;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+.add-suggested-term, .add-suggested-term-center {
+    background-color: #397AD3;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 25px;
+    display: inline-block;
+    height: auto;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    min-width: 60%;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+.add-suggested-term-center{ 
+    float: center;
+    margin-bottom: 9px;
+}
+/* === Buttons === */
+/* === THIS IS THE MAJOR IMAGE BUTTON DESIGN === */
+.buttonnodeimage{ 
+    width:100%;
+    } 
+/* === Bottom of Main View === */
+.button-add-topic, .button-import-lexicon {
+    background-color: #AFE1AF;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 12px;
+}
+/* === BREADCRUMBS === */
+.button6{
+    background-color: #2A547E;
+    border-width: 1px;
+    border-radius: 1px;
+    color: #FFF;
+    font-size: 10px;
+    height:auto;
+    max-width:410px;
+    min-width:150px;
+    padding: 10px 10px;
+    text-align: center;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+
+    }
+.button-reset {
+    background-color: #2A547E;
+    border: 1px solid #000;
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    height: auto; 
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+/* === Button to turn on/off the edit buttons -> NodeView */
+.button-round-edit {
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: lightgrey;
+    cursor: pointer;
+    font-size: 2em;
+    padding: 0px 12px 4px 12px;
+}
+/* === Button to add word to table of common words (to eliminate)  */
+.common-word {
+    background-color: #f00;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    display: inline;
+    font-size: 15px;
+    /* margin: 0 10px 0 0; */
+    margin: 0 0 0 10px;
+    padding: 7px 7px;
+    text-align: center;
+    text-decoration: none;
+}
+/* === Hide Button === */
+.hide-button {
+    display: none;
+}
+/* === Layout === */
 .home-style-button{
-    background-color: #ffffff;
+    background-color: purple;
     border-color:#800;
     border-radius:0px;
     border-width:0px;
     width: 80px;
     }
-/* END BUTTONS */
-
-/* START TEXT */	
-.textfieldlarge{
-    border: 2px solid #397AD3;
-    font-size: 30px;
-    width:80%;
-    }		
-.tag-line{
-    background-color:#FFF;
+/* === Layout === */
+.layout-button {
+    border-radius: 10px;
+    font-size: 20px;
+    height: auto;
+    text-align: center;
+    padding: 7px 15px;
+    width: auto;
+}
+/* === LOGOUT === */
+.logout {
+    /* background-color:#0099cc;*/
+    background-color: red;
+    border-radius: 10px;
+    border: 3px;
+    color:#fff; 
+    font-size: 20px;
+    height: auto;
+    padding: 10px 10px;
+    text-align: center; 
+    width: 130px;
+}
+/* === LOGOUT V2 === */
+.button_logout {
+    background-color: red;
+    border: 1px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 20px;
+    height: auto;
+    text-align: center; 
+    padding: 4px 4px;
+    width: 100px;
+}
+.manualadd{
+    background-color: #397AD3;
+    color:#FFF;
     border: none;
-    font-size: 25px;
-    height:auto;
-    min-width: 250px;
+    border-radius: 10px;
+    font-size: 24px;
+    height: 50px;
+    min-width:60%;
     padding: 10px 10px;
     text-align: center;
     text-decoration: none;
+}	
+/* === Divs === */ 
+div.center{
+    text-align:center;
     }
-.adminbuttonold{
-    border-width: thick;
-    border-top-color: #000;
-    font-size: 40px;
-    padding: 5px 10px;
-    text-align: center;
-    white-space: normal;
-    width: 100px;
+div.left{
+    text-align:left;
     }
-.footer-text{
-    color: #000;
-    font-size: 30px;
-    text-align: center;
-    }
-.largetext {
-    color: #000;
-    font-size: 14px;
-    text-align: center;
-    }
-.large-red-text{
-    color: #f00;
-    text-align: center;
-    font-size: 40px;
-    }   
-.messagetext {
-	font-size: 40px;
-    text-align: center;
-    }
-.message-text {
-	font-size: 70px;
-    text-align: center;
-    }
-/* END TEXT */	
-
-/* TRASH ??? */
-#container div{
-    display: inline-block;
-    width: 400px;
-    align-content: center;
-    }
-.submissionfield {
-    width: 80%; height: 50px; border: 1px solid #999999; padding: 5px; 
-    }
-/* END TRASH ??? */
-
-/* LARGE SCREEN *************************************** LARGE SCREEN ******************************** */
-@media only screen and (min-width: 1008px) {
 div.big{
-    width: 600px;
-    height: 1100px;
     background-color: #AAAAAA;
+    height: 1100px;
     padding: 20px;
+    width: 600px;
     }
-div.sub{
-    width: 450px;
-    height: 800px;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #000;
-    border-radius: 50px;
-    margin: 50px;
-    padding: 50px 0px 0px 0px;
-    background-color: #fff;
-    }
-div.tiny {
+/* div.tiny {
     background-color: #888;
     border-color: #999;
     border-radius: 0px;
@@ -390,161 +480,225 @@ div.tiny {
     margin: 0px;
     padding: 0px;
     width: 390px;
+    } */
+/* div.sub{
+    background-color: #fff;
+    border-color: #000;
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 5px;
+    margin: 50px;
+    padding: 50px 0px 0px 0px;
+    
+width: 450px;
+    height: 800px;
+    } */
+/* === Horizontal Rules === */   
+hr{
+    background-color:#2A547E;
+    height:2px;
+    } 
+.hr-blue{
+    background-color:#2A547E;
+    height:6px;   
+    } 
+.hr-blue-3px{
+    background-color:#2A547E;
+    height:2px;
+    } 
+hr.testing {
+    border: 5px solid #bbb;
+    width: 100%;   
+}
+/* === Image  === */
+img{
+    border-radius:4px;
+    /* radius:2px; */
+    width:80%;
     }
-/* END STRUCTURE */
-
-/* START BUTTONS */
-.add-suggested-term { 
-    background-color: #397AD3;
-	color:#ffffff;
-    min-width: 70%;
-    border-radius: 10px;
-    /* height: 50px; */
-    border: none;
-    padding: 10px 10px;
-    text-align: center;
-    text-decoration: none;
-    display:inline;
-    margin: 0 auto;
-    /* float:left; */
-    font-size: 22px;
+/* === Forms  === */
+/* === This also styles the images for navigation photo buttons  === */
+input{
+    border-radius:4px;
+    width:100%;
     }
-.admin{
-    border-radius: 10px;
-    display: inline-block;
-    font-size: 35px;
-    text-align: center;
-    height: auto;
-    padding: 10px 20px;
-    width: 250px;
+/* === Layout Elements === */
+p{
+    text-align:center;
+    } 
+/* === Right-aligned Elements === */
+.right {
+    float: right;
+}
+/* === Center-aligned Elements === */
+.center{
+    margin-left:auto;
+    margin-right:auto;
+} 
+/* === Table Elements === */     
+table{
+    text-align:center;
+    width:100%;
     }
-.block{
-    /* text-align:center; */
+td.center{
+    text-align:center;
+    }
+td.search{
     background-color:#CDDEEE;
-    border:1px solid;
-    border-color: black;
-    border-radius:10px;
-    display:block;
-    font-size:30px;
+    border: 2px solid #006;
     height:auto;
-    max-width:550px;
-    min-width:350px; 
-    padding:10px 20px;
-    text-align:center;
-    text-decoration:none;
-    white-space:normal; 
-    word-wrap:break-word;  
+    padding: 5px;
     }
-.blocksmall{
-    /* text-align:center; */
-    background-color:#CDDEEE;
-    border:1px solid;
-    border-color: black;
-    border-radius:10px;
-    display:block;
-    font-size:30px;
-    height:auto;
-    max-width:550px;
-    min-width:250px; 
-    padding:10px 20px;
-    text-align:center;
-    text-decoration:none;
-    white-space:normal; 
-    word-wrap:break-word;  
-    }
-.button6 {
-    height: auto;
-    background-color: #2A547E;	
-    border-width: 1px;
-    color: #FFF;
-    max-width:550px;
-    min-width:250px; 
-    padding: 10px 20px;
-    text-align: center;
-    white-space: normal;
-    font-size: 50px;
-    border-radius: 10px;
-    word-wrap:break-word;
-    }
-.common-word{  
-    color: white;
-    background-color: #f00;
-    border: none;
-    padding: 10px 12px;
-    text-align: center;
-    text-decoration: none;
-    display:inline;
-    margin: 0 auto;
-    /* float:left; */
-    font-size: 22px;
-	border-radius: 10px;
-    }	
-.home-style-button{
-    background-color: #ffffff;
-    border-color:#800;
-    border-radius:0px;
-    border-width:0px;
-    width: 80px;
-    }
-.reset-button{
-    border-width:1px;
-    border-color:black;
-    border-radius:50px;
-    display:inline-block;
-    font-size:15px;
-    height: auto;
-    padding:10px 20px;
-    text-align:center;
-    text-decoration:none;
-    width:auto;
-    }
-.show-hide-add-topic{
-    color: white;
-    width: auto;
-    height:auto;
-    background-color: #254b70;	
-    text-align: center;
-    font-size: 30px;
-    display: inline-block;
-    border-radius:10px;
-    padding:10px 20px;
-    }
- /* END BUTTONS */
-
-/* START TEXT */
-.footer-text{
+/* === Footer === */
+.footer-text {
     color: #000;
-    font-size: 20px;
     text-align: center;
-    }
-.large-red-text{
+    font-size: 18px; 
+}
+/* === Left-aligned Lists === */
+.left ul {
+    float: left;
+    line-height: 2.5em;
+}
+/* === Large Text === */
+.largetext {
+    color: blue;
+    font-size: 28px;
+    text-align: center;
+}
+.large-red-text {
     color: #f00;
     font-size: 24px;
     text-align: center;
-    }    
-.largetext {
-    color: #000;
-    font-size: 10px;
+}
+/* === Message Text === */
+.message-text {
+    font-size: 25px;
     text-align: center;
-    }
-.messagetext{
-    font-size: 10px;
-    text-align: center;
-    }     
-.message-text{
-    font-size: 50px;
-    text-align: center;
-    }
-.tag-line{
-    background-color:#fff;
-    border: none;
-    font-size:2em;
-    height:auto;
-    padding: 10px 10px;
+}
+/* === New Green Button === */
+.newgreen {
+    background-color: #7abe80;
+    border: 1px solid #000;
+    border-radius: 10px;
+    display: block;
+    font-size: 25px;
+    height: auto;
+    max-width: 170px;
+    min-width: 170px;
+    padding: 10px 20px;
+    text-align: left;
+    text-decoration: none;
+    white-space: normal;
+    word-wrap: break-word;
+}
+/* === Show/Hide Add Topic === */
+.show-hide-add-topic {
+    background-color: #254b70;
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;  
+    font-size: 15px;
+    height: auto;
+    justify-content: center;
+    max-width: 350px;
+    min-width: 100px;
+    padding: 5px 10px;
     text-align: center;
     text-decoration: none;
+    white-space: normal;
+    word-wrap: break-word; 
+}
+/* === Tag Line === */
+.tag-line {
+    background-color: #FFF;
+    font-size: 35px;
+    height: auto;
+    min-width: 250px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+.textfieldlarge{
+    border: 2px solid #397AD3;
+    font-size: 30px;
+    width:80%;
+    }	
+
+                /* TRASH ??? */
+                /* #container div{
+                    align-content: center;
+                    display: inline-block;
+                    width: 400px;
+                }
+                .submissionfield {
+                    width: 80%; height: 50px; border: 1px solid #999999; padding: 5px; 
+                } */
+                /* END TRASH ??? */
+                
+/* === Media Queries ============================================================================================================ */
+@media screen and (min-width: 980px) {
+    body {
+        align-content: center;
+        display: inline-block;
+        background-attachment: fixed;
+        /* background-color: #7499c5; */
+        /* background-color: #000000; */
+        background-color: #7499c5;
+        /* background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg'); */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2em auto;
+        text-align: center;
+        /* width: 2000px; 
+        This version created an odd position for the phone version
+        */
+        width: 100%
+    }
+    .center {
+        text-align: center;
+    } 
+    /* === Divs === */
+    div.outsidebox {
+        display: inline-block;
+    }
+    /* === Creates the Mobile Phone design === */
+    div.sub {
+        background-color: #fff;
+        border: 5px solid #000;
+        border-radius: 50px;
+        height: 800px;
+        padding: 50px 0px 50px 0px;
+        width: 420px;
+    }
+    div.scroll {
+        border-radius: 50px;
+        height: 730px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        padding: 0px;
+        text-align: center;
+        width: 420px;
+    }
+    div.screen-top{
+        background-color:#444;
+        border-radius:50px 50px 0px 0px;
+        height:50px;
+        text-align:center;
+    }
+    .hide-button {
+        display: inline-block;
+    }
+    .mynewcenter {
+        border: 3px solid #73AD21;
+        margin: auto;
+        padding: 10px;
+        width: 60%;
+    }
+    table {
+        text-align: center;
+        width: 90%;
     }
 }
-/* END TEXT */
-
-

@@ -1,0 +1,2157 @@
+/* Styles for the 'body' element */
+body {
+width: 90%;  
+        margin: 2em auto; 
+        background-color: #eee; width: 500px; 
+            margin: 2em auto; 
+            /* background-color: #bbbbbb;
+            background-color: #999; */
+            background-color: #7499c5; 
+            /* background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg'); */
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover; background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 20px; //background-color: #7499c5; 
+        background-color: #000000; 
+        //background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        text-align: center; /* background-color: #7499c5; */
+            background-color:  var(--primary-color);
+            /* background-image: url('your-background-image.jpg'); Uncomment and replace with your image URL if needed */
+            /* Other background properties can be uncommented and adjusted as needed */ background-color: #7499c5; 
+    min-width: 360px;  
+    /* margin: 2em auto;  */
+    /* 777 */
+    /* background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; */ /* width: 600px;  */
+        /* margin: 2em auto;  */
+        /* background-color: #ccc;  */
+        /* background-color: #7499c5;  */
+        background-color: #7499c5; 
+        /* background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg'); */
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        text-align: center;
+        background-size: cover;
+}
+
+/* Styles for the '.gobacktolayout' class */
+.gobacktolayout {
+max-width: 205px;
+        height: auto;
+        padding: 5px 15px;
+        background-color: blue;
+        color:#fff;
+        border: 1px;
+        border-radius: 5px;
+        text-align: center; 
+        font-size: 22px;
+}
+
+/* Styles for the '.hidebutton' class */
+.hidebutton {
+display:none; display: inline-block;
+}
+
+/* Styles for the '.reset-button' class */
+.reset-button {
+background-color:#2A547E;
+        border-width:1px;
+        border-color:black;
+        border-radius:20px;
+        color: white;
+        display:inline-block;
+        font-size:15px;
+        height: auto;
+        padding:10px 20px;
+        text-align:center;
+        text-decoration:none;
+        width:auto; width:auto;
+    height: auto;
+    padding:10px 20px;
+    background-color:#2A547E;
+    border-width:1px;
+    border-color:black;
+    border-radius:20px;
+    color: white;
+    display:inline-block;
+    font-size:35px;
+    text-align:center;
+    text-decoration:none; border-width:1px;
+    border-color:black;
+    border-radius:10px;
+    display:inline-block;
+    font-size:15px;
+    height: auto;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    width:auto;
+}
+
+/* Styles for the '.navgridbutton' class */
+.navgridbutton {
+background-color: #7bf;
+        font-size: 20px;
+        border-radius: 5px;
+        padding: 5px;
+        width: 120px;
+}
+
+/* Styles for the '.logout' class */
+.logout {
+/* LOGOUT BUTTON 
+        background-color:#0099cc;*/
+        background-color: red;
+        width: 130px;
+        height: auto;
+        border: 3px;
+        color:#fff; 
+        padding: 10px 10px;
+        text-align: center; 
+        font-size: 20px;
+        border-radius: 10px; /* BUTTON */
+    width: 130px;
+    height: auto;
+    padding: 5px 5px;
+    background-color: red;
+    border-radius: 5px;
+    color:#fff; 
+    border: 3px;
+    text-align: center; 
+    font-size: 18px; /* LOGOUT BUTTON 
+    background-color:#0099cc;*/
+    background-color: red;
+    border: 3px;
+    border-radius: 10px;    
+    color:#fff; 
+    font-size: 20px;   
+    height: auto;
+    padding: 10px 10px;
+    text-align: center; 
+    width: 130px;
+}
+
+/* Styles for the '.logoutbutton' class */
+.logoutbutton {
+/* LOGOUT BUTTON 
+        background-color:#0099cc;*/
+        background-color: red;
+        width: 120px;
+        height: auto;
+        border: 3px;
+        color:#fff; 
+        padding: 5px 5px;
+        text-align: center; 
+        font-size: 20px;
+        border-radius: 5px; width: 120px;
+    background-color: red;
+    color: white; background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 120px; width: 120px;
+    background-color: red;
+    color: white; width: 130px;
+    height: auto;
+    padding: 5px 7px;
+    background-color: red;
+    color:#fff;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Styles for the '.container' class */
+.container {
+font-family: arial;
+        font-size: 24px;
+        margin: 25px;
+        width: 350px;
+        height: 200px;
+        outline: dashed 1px black;
+        margin: 2em auto; 
+        /* position: relative; */
+        text-align: center;
+}
+
+/* Styles for the '.sub' class */
+.sub {
+
+}
+
+/* Styles for the '.scroll' class */
+.scroll {
+/* background-color: #fed9ff;  */
+            border-radius: 50px;
+            height: 730px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            text-align: center;
+            padding: 10px; 
+            /* width: 430px; */
+            width: auto;
+}
+
+/* Styles for the 'div' element */
+div {
+/* padding: 50px 0;	 */
+        /* margin-top: 20px; */ /* padding: 50px 0;	 */
+        text-align: center;
+        margin-top: 10px;
+}
+
+/* Styles for the 'table' element */
+table {
+/* display: flex;
+        justify-content: center; */ //align="center" border="1" cellpadding="10"
+        //text-align:center; 
+        /* border-radius:10ps; */   
+        align: center;
+        margin: 0 auto;
+        width:400px;
+        cellpadding: 10px;
+        /* border: 1px solid; */ text-align:center;
+    width:90%;
+}
+
+/* Styles for the 'td' element */
+td {
+/* display: flex;
+        justify-content: center; */ width:50px; width:150px;
+}
+
+/* Styles for the 'input[type=text]' element */
+input[type=text] {
+/*
+        box-sizing: border-box;
+        -webkit-transition: 0.5s; 
+        transition: 0.5s; 
+        outline: none; */
+        width: 200px;
+        padding: 6px 10px;
+        margin: 8px 0;
+        border: 1px solid #ccc;
+        font-size: 24px; /*
+        box-sizing: border-box;
+        -webkit-transition: 0.5s; 
+        transition: 0.5s; 
+        outline: none; */
+        width: 250px;
+        padding: 6px 10px;
+        margin: 8px 0;
+        border: 3px solid #ccc;
+        font-size: 24px;
+}
+
+/* Styles for the 'input[type=text]:focus' element */
+input[type=text]:focus {
+border: 2px solid #555; border: 3px solid #555;
+}
+
+/* Styles for the '.greenaddvalue' class */
+.greenaddvalue {
+/* Content BUTTON */
+        //background-color:#0b0;
+        /* #a9d5ad
+        background-color:#7abe80; */
+        /* display:block; */
+        /* max-width:450px;
+        min-width:200px;  */
+        /*word-wrap: normal;*/    
+        background-color:#a9d5ad;
+        border:1px solid;
+        border-color: black;
+        border-radius:10px;
+        font-size:25px;
+        height:auto;
+        padding:10px 20px;
+        text-align:center;
+        text-decoration:none;
+        white-space:normal; 
+        word-wrap:break-word; /* Content BUTTON */
+        //background-color:#0b0;
+        /* #a9d5ad
+        background-color:#7abe80; */
+        /* max-width:450px;
+        min-width:200px;  */
+        /* display:block; */
+        /*word-wrap: normal;*/
+        background-color:#a9d5ad;
+        border:1px solid;
+        border-color: black;
+        border-radius:10px;
+        font-size:25px;
+        height:auto;
+        padding:10px 20px;
+        text-align:center;
+        text-decoration:none;
+        white-space:normal; 
+        word-wrap:break-word;
+}
+
+/* Styles for the '.navigationbutton' class */
+.navigationbutton {
+background-color: #7bf;
+        font-size: 20px;
+        border-radius: 10px;
+        padding: 5px;
+        text-align: center;
+        width: 140px; width: 140px;
+    padding: 5px;
+    /* background-color: #7bf; */
+    background-color: #add6f4;  
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center; width: 140px;
+    padding: 5px;
+    /* background-color: #add6f4; */
+    background-color: #7bf;
+    font-size: 10px;
+    border-radius: 1px;
+    text-align: center;
+}
+
+/* Styles for the '.gohomebutton' class */
+.gohomebutton {
+/* Content BUTTON */
+        /*word-wrap: normal;*/
+        background-color:#CDDEEE;
+        border:1px solid;
+        border-color: black;
+        border-radius:10px;
+        display:block;
+        font-size:15px;
+        height:auto;
+        max-width:160px;
+        min-width:100px; 
+        padding:10px 20px;
+        text-align:center;
+        text-decoration:none;
+        white-space:normal; 
+        word-wrap:break-word; background-color: #7bf;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 120px; background-color: #7bf;
+    font-size: 20px;
+    padding: 5px;
+/* radius: 110px; */
+    text-align: center;
+    width: 100px;
+}
+
+/* Styles for the 'div.scroll' element */
+div.scroll {
+/* background-color: #fed9ff;  */
+        border-radius: 50px;
+        height: 730px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        text-align: center;
+        padding: 10px; 
+        width: 430px;
+        align:center; width: 100%;
+    height: 590px;
+    margin: 2em auto;
+    /* margin: 10px 10px 10px 10px; */
+
+
+    /* background-color: #fed9ff;  */
+    
+    /* background-color:  #ddd; */
+
+    /* This is a way to control opacity */
+    /* background-color: rgba(100, 100, 100, 0.2); */
+
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+    border-radius: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+}
+
+/* Styles for the 'div.big' element */
+div.big {
+width: 600px;
+        height: 1100px;
+        align:center;
+        background-color: #AAAAAA;
+        padding: 20px; background-color: #fff;
+    height: 1100px;
+    text-align:center;
+    /* background-color: #999; */
+    padding: 0px;
+    width: 1000px; /* background-color: #999; */
+        background-color: #fff;
+        height: 1100px;
+        text-align:center;
+        width: 1000px;
+}
+
+/* Styles for the 'div.sub' element */
+div.sub {
+/* box-shadow: 0px 0px 0px #AAAAAA;*/   
+        width: 450px;
+        height: 800px;  
+        border-style: solid;
+        border-width: 5px;
+        border-color: #000;
+        border-radius: 50px;
+        margin: 50px;
+        padding: 50px 0px 0px 0px;
+        background-color: #fff;
+        align-content: center;
+}
+
+/* Styles for the 'h2' element */
+h2 {
+text-align:center;
+}
+
+/* Styles for the 'button' element */
+button {
+border-radius: <?php echo $myradius ?>px; background-color: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; border: none; /* Removes border from buttons and images */
+            padding: 0; /* Removes padding inside buttons */
+            background-color: #444; background-color: #dddddd;
+}
+
+/* Styles for the 'img' element */
+img {
+/*border: 4px #000 solid;*/
+        border-radius: 10px; width:55%;
+    /* radius:2px; */
+    border-radius:4px; width:300px;
+    /* radius:2px; */
+    border-radius:20px;
+}
+
+/* Styles for the '.submitbutton' class */
+.submitbutton {
+/* PRIMARY BUTTON */
+        //align:center;
+        //display:block;  
+        /*word-wrap: normal;*/  
+        background-color:#CDDEEE;
+        border:2px solid;
+        border-color: black;
+        border-radius:10px;
+        font-size:20px;
+        height:auto;
+        max-width:350px;
+        min-width:200px; 
+        padding:10px 10px;
+        text-align:center;
+}
+
+/* Styles for the '.homebutton' class */
+.homebutton {
+/* PRIMARY BUTTON */
+        //align:center;
+        //display:block;
+        /*word-wrap: normal;*/
+        background-color:#CDDEEE;
+        border:2px solid;
+        border-color: black;
+        border-radius:10px; 
+        font-size:20px;
+        height:auto;
+        max-width:350px;
+        min-width:200px; 
+        padding:10px 10px;
+        text-align:center; /* BUTTON TO HOME */
+    background-color: #ddd;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #333;
+    border-radius: 15px;
+    font-size: 20px;    
+    height: auto;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+}
+
+/* Styles for the '*' element */
+* {
+box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the '.header' class */
+.header {
+margin-bottom: 20px; /*background-color: #9933cc;*/
+    background-color: #ffffff;
+    color: #000000;
+    padding: 15px;
+}
+
+/* Styles for the 'h1' element */
+h1 {
+margin-bottom: 10px; color: #7096c3;
+            font-size: 40px; /* Corrected property name from 'text-size' to 'font-size' */
+}
+
+/* Styles for the '.pricing-table' class */
+.pricing-table {
+display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Styles for the '.plan' class */
+.plan {
+background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles for the '.plan h2' class */
+.plan h2 {
+margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* Styles for the '.plan p' class */
+.plan p {
+font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Styles for the '.plan ul' class */
+.plan ul {
+text-align: left;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+/* Styles for the '.plan ul li' class */
+.plan ul li {
+padding: 5px 0;
+}
+
+/* Styles for the 'button:hover' element */
+button:hover {
+background-color: #0056b3;
+}
+
+/* Styles for the '.footer' class */
+.footer {
+margin-top: 20px; /* 0099cc */
+    background-color: #5b81a5;
+    border-radius: 10px;
+    color: #ffffff;
+    /* align:center; */
+    font-size: 20px;
+    margin: 2em auto;
+    text-align: center;
+    padding: 10px;
+    width: 60%; /* 0099cc */
+        background-color: #5b81a5;
+        border-radius: 10px;
+        color: #ffffff;
+        font-size: 12px;
+        padding: 10px;       
+        text-align: center;
+}
+
+/* Styles for the '/* 
+lines 916
+LAYOUT STYLE 
+START LAYOUT STRUCTURE 
+
+
+
+body' element
+
+lines 916
+LAYOUT STYLE 
+START LAYOUT STRUCTURE 
+
+*/
+body {
+width: 100%; 
+    /* margin: 2em auto; 
+    border-radius: 60px; */
+    /* border: 10px solid lightgrey; */
+    /* font: 1em/1.3 Arial, Helvetica, sans-serif; */   
+    background-color: #ccc; 
+    text-align:center;
+    padding: 10px 30px 10px 30px;
+}
+
+/* Styles for the '.logodesign' class */
+.logodesign {
+width: 200px;
+    margin: 5px 20px 10px 0px;
+    border-radius: 4px; width: 200px;
+    border-radius: 1px;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+div.primary' element */
+/* TO DO: CHANGE NAME */
+div.primary {
+width:auto;
+    background-color: #aaa;
+    padding: 10px 30px 10px 30px;
+    text-align:center; /* opacity: 0.5; */
+    margin: 0px 0px 0px 0px;
+    padding:  30px 30px 30px 30px;
+    /* background-color: #888; 
+    background-color: #fed9ff;
+    background-color: #fff; */
+    /* background-color: #7499c5; 
+    
+    background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg');
+    */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styles for the 'div.topofpageheader' element */
+div.topofpageheader {
+/* background-color: #999; */
+    padding: 10px 30px 10px 30px; margin: 0px 0px 0px 0px;
+    padding:  0px 0px 0px 0px;
+    /* background-color: #555;
+    background-color: rgba(100, 100, 100, 0.5); */
+}
+
+/* Styles for the 'div.screen-top' element */
+div.screen-top {
+height:50px;
+    background-color:#444;
+    border-radius:50px 50px 0px 0px;
+    text-align:center;
+}
+
+/* Styles for the 'input' element */
+input {
+width:10%;
+    border-radius:4px; border: solid 2px;
+    border-color: black;
+    max-width:300px;
+}
+
+/* Styles for the 'p' element */
+p {
+text-align:center; line-height: 50px; /* Corrected property name from 'text-height' to 'line-height' */
+}
+
+/* Styles for the '.center' class */
+.center {
+margin-left:auto;
+    margin-right:auto;
+}
+
+/* Styles for the 'div.center' element */
+div.center {
+text-align:center;
+}
+
+/* Styles for the 'div.left' element */
+div.left {
+text-align:left;
+}
+
+/* Styles for the 'td.center' element */
+td.center {
+text-align:center; width:50%;
+    text-align:center;
+}
+
+/* Styles for the 'td.search' element */
+td.search {
+height:auto;
+    padding: 10px;
+    background-color:#CDDEEE;
+    border: 2px solid #006;
+}
+
+/* Styles for the 'hr' element */
+hr {
+height:2px;
+    background-color:#2A547E; border: 1px solid #0099cc;
+}
+
+/* Styles for the '.hr-blue' class */
+.hr-blue {
+height:6px;
+    background-color:#2A547E;
+}
+
+/* Styles for the '.hr-blue-3px' class */
+.hr-blue-3px {
+height:2px;
+    background-color:#2A547E;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME */
+.hr1' element */
+/* TO DO: CHANGE NAME */
+.hr1 {
+/* used between the DRILLDOWN STEPS */
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME */
+.hr5' element */
+/* TO DO: CHANGE NAME */
+.hr5 {
+/* used between the drilldown steps */
+}
+
+/* Styles for the '/* END STRUCTURE */
+
+/* START BUTTONS 
+.admin' element 
+/* END STRUCTURE */
+
+/* START BUTTONS */
+.admin {
+width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    /* display: inline-block; */
+    font-size: 45px;
+    text-align: center;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.block' element */
+/* TO DO: CHANGE NAME */
+.block {
+/* PRIMARY BUTTON */
+    max-width:100px;
+    min-width:40px; 
+    height:auto;
+    padding:3px 5px;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:10px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.newgreen' class */
+.newgreen {
+max-width:100px;
+    min-width:40px; 
+    height:auto;
+    padding:3px 5px;
+    /* Content BUTTON */
+    /* background-color:#0b0; */
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/ /* Content BUTTON */
+    /* background-color:#0b0; */
+
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:170px;
+    min-width:170px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.tinyphotobutton' class */
+.tinyphotobutton {
+/* Content BUTTON */
+    max-width:100px;
+    min-width:20px; 
+    height:auto;
+    padding:2px 6px;
+    margin: 0px 0px 5px 0px;
+    background-color:#eee;
+    border:1px solid;
+    border-color: black;
+    border-radius:2px;
+    display:block;
+    font-size:8px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/ /* Content BUTTON */
+    background-color:#eee;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:200px;
+    min-width:20px; 
+    padding:2px 10px;
+    margin: 0px 0px 5px 0px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.addnodebutton' class */
+.addnodebutton {
+/* Content BUTTON */
+    /* background-color:#0b0; */
+    min-width:20px; 
+    max-width:20px;
+    min-height:20px;
+    max-height:20px;
+    padding:2px;
+    margin: 0px 0px 0px 5px;
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:2px;
+    display:block;
+    font-size:8px;
+    text-align:center;
+    vertical-align: middle;
+    text-decoration:none;
+    white-space:normal; 
+    /*word-wrap: normal;*/
+    word-wrap:break-word; background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:20px;
+    min-height:40px;
+    max-height:40px;
+    min-width:40px; 
+    max-width:40px;
+    padding:1px;
+    margin: 0px 0px 0px 15px;
+    /* word-wrap:break-word;  */
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.blocksmall' element */
+/* TO DO: CHANGE NAME */
+.blocksmall {
+/* PRIMARY BUTTON ALT LANGUAGE */
+    max-width:250px;
+    min-width:180px;
+    height:auto;
+    padding:10px 20px;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:50px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal;
+    word-wrap:break-word;
+}
+
+/* Styles for the '.altlangbutton' class */
+.altlangbutton {
+/* Content BUTTON */
+    /* background-color:#F89880; */
+    max-width:100px;
+    min-width:40px; 
+    height:auto;
+    padding:3px 5px;
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/ /* Content BUTTON */
+    /* background-color:#F89880; */
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:170px;
+    min-width:170px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/ /* Content BUTTON */
+    max-width:270px;
+    min-width:70px; 
+    height:auto;
+    padding:5px 10px;
+    /* background-color:#F89880; */
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /* word-wrap: normal; */
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.manualadd' element 
+/* TO DO: CHANGE NAME */
+
+.manualadd {
+min-width:70%;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #397AD3;
+	color:#FFF;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+/* Styles for the '.add-suggested-term' class */
+.add-suggested-term {
+min-width: 70%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0 auto;
+    background-color: #397AD3;
+    border: none;
+    border-radius: 10px;
+    color:#ffffff;
+    display:inline;
+    float:left;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Styles for the '/* To add a common word to a dataset of words to NOT SHOW 
+.common-word' element */
+/* To add a common word to a dataset of words to NOT SHOW */
+.common-word {
+margin: 0 0 0 20px;
+    padding: 10px 12px;
+    background-color: #f00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display:inline;  
+    float:left;
+    font-size: 45px;    
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.button6' element */
+/* TO DO: CHANGE NAME */
+.button6 {
+/* BREADCRUMBS */
+    max-width:550px;
+    min-width:350px;
+    height:auto;
+    padding: 10px 10px;
+    background-color: #2A547E;
+    border-width: 1px;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    white-space: normal; /* BREADCRUMBS */
+    height: auto;
+    background-color: #2A547E;
+    /* background-color: #C00;	*/	
+    border-width: 1px;
+    color: #FFF;
+       max-width:550px;
+    min-width:250px; 
+    padding: 10px 20px;
+    text-align: center;
+    white-space: normal;
+    font-size: 25px;
+    border-radius: 15px;
+    word-wrap:break-word;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.buttonnodeimage' element */
+/* TO DO: CHANGE NAME */
+.buttonnodeimage {
+width:100%;
+    height: auto;     
+    /*background-color: #C00;	*/
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.adminbutton' element */
+/* TO DO: CHANGE NAME */  
+.adminbutton {
+/* TRYING TO JUST DO ADMIN BUTTON */
+    width: auto;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* Styles for the '.home-style-button' class */
+.home-style-button {
+/* used in the HOME BUTTON INPUT */
+    width: 180px;
+    background-color: purple;
+    border-radius:10px;
+    border-width:0px; /* used in the HOME BUTTON INPUT */
+    background-color: #ffffff;
+    border-color:#800;
+    border-radius:0px;
+    border-width:0px;
+    width: 80px;
+}
+
+/* Styles for the '.show-hide-add-topic' class */
+.show-hide-add-topic {
+/* used in the MANUAL TERM BUTTON TO SHOW OR HIDE FEATURE */
+    width: auto;
+    height:auto;
+    padding: 1px 10px;
+    /* background-color: #005; */
+    background-color: #254b70;
+    border-radius:10px;
+    color: white;
+    /*content-align: center;*/
+	display: inline-block;  
+    font-size: 30px;	
+    text-align:center; /* TO SHOW OR HIDE MANUAL & SUGGESTION TERMS BUTTON GRID*/
+    color: white;
+    width: auto;
+    height:auto;
+    background-color: #254b70;	
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    border-radius:10px;
+    padding:10px 20px;
+    /* background-color: #005;*/
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME     
+.styletogglebutton' element */
+/* TO DO: CHANGE NAME */     
+.styletogglebutton {
+/* Toggle between STYLE OPTIONS */
+    width: 500px;
+    height: 50px; 
+    float: left;
+    font-size: 30px;    	
+    text-align: center;
+    /* border-width:thick;*/
+    /* border-top-color:#000; */
+    /* padding: 5px, 5px, 5px, 5px; */
+    /* white-space: normal;*/
+}
+
+/* Styles for the '/* END BUTTONS */
+
+/* START TEXT 	
+
+.textfieldlarge' element */
+/* END BUTTONS */
+
+/* START TEXT */	
+
+.textfieldlarge {
+width:80%;   
+    border: 2px solid #397AD3;
+    font-size: 30px;
+}
+
+/* Styles for the '.tag-line' class */
+.tag-line {
+min-width: 100px;
+    height:auto;
+    padding: 10px 10px;
+    background-color:#FFF;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none; background-color:#fff;
+    border: none;
+    border-radius:4px;
+    font-size:15px;
+    height:auto;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none; background-color:#FFF;
+    border: none;
+    font-size: 20px;
+    height:auto;
+    min-width: 100px;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.adminbuttonold' element */
+/* TO DO: CHANGE NAME */
+.adminbuttonold {
+/* TRYING TO JUST DO ADMIN BUTTON */
+    width: 100px;
+    /* width: auto; */
+    /* height: auto;    */
+    padding: 5px 10px;
+    /*background-color: #C00;	*/
+    border-width: thick;
+    border-top-color: #000;
+    font-size: 40px;
+    text-align: center;
+    white-space: normal;
+}
+
+/* Styles for the '.footer-text' class */
+.footer-text {
+/* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 54px;
+    text-align: center;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+.largetext' element */
+/* TO DO: CHANGE NAME */
+.largetext {
+/* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 54px;
+    text-align: center;
+}
+
+/* Styles for the '.large-red-text' class*/ 
+.large-red-text {
+color: #f00;
+    text-align: center;
+    font-size: 40px; color: #f00;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME also on Include Files    
+.messagetext' element */
+/* TO DO: CHANGE NAME also on Include Files */   
+.messagetext {
+/* Instructions */
+	font-size: 40px;
+    text-align: center;
+}
+
+/* Styles for the '.message-text' class */
+.message-text {
+/* Destination, Google Text, Google Images */
+	font-size: 70px;
+    text-align: center; /* Destination, Google Text, Google Images */
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Styles for the '/* END TEXT */
+
+/* TRASH ??? 
+#container div' element */
+/* END TEXT */	
+
+/* TRASH ??? */
+#container div {
+display: inline-block;
+    width: 400px;
+    align-content: center;
+}
+
+/* Styles for the '
+.submissionfield' element */
+*/
+.submissionfield {
+width: 80%; height: 50px; border: 1px solid #999999; padding: 5px;
+}
+
+/* Styles for the '/* START STRUCTURE 
+body' element */
+/* START STRUCTURE */
+body {
+width: 100%;
+    /* margin: 2em auto; */
+    /* border-radius: 60px; */
+    /* border: 10px solid lightgrey; */
+    /* font: 1em/1.3 Arial, Helvetica, sans-serif; */ 
+    /* background-color: #999;  */
+     
+    padding:  0px 0px 0px 0px;
+}
+
+/* Styles for the '.transparent-style' class */
+.transparent-style {
+background-color: #ffffff;
+    opacity: .4;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+div.sub' element */
+/* TO DO: CHANGE NAME */
+div.sub {
+width: 450px;
+    height: 800px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+    border-radius: 50px;
+    margin: 50px;
+    /* box-shadow: 0px 0px 0px #AAAAAA;*/
+    padding: 50px 0px 0px 0px;
+    background-color: #fff;
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME 
+div.tiny' element */
+/* TO DO: CHANGE NAME */
+div.tiny {
+background-color: #888;
+    border-color: #999;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    width: 390px;
+    /*box-shadow: 0px 0px 5px #AAAAAA;*/
+}
+
+/* Styles for the 'div.buttonsinarow' element */
+div.buttonsinarow {
+display:inline-block;
+}
+
+/* Styles for the 'div#frm *' element */
+div#frm * {
+display:inline display:inline
+}
+
+/* Styles for the '/* END STRUCTURE */
+
+/* START BUTTONS */
+
+/* TO DO: CHANGE NAME 
+.add-suggested-term' element */
+/* END STRUCTURE */
+
+/* START BUTTONS */
+
+/* TO DO: CHANGE NAME */
+.add-suggested-term {
+background-color: #397AD3;
+	color:#ffffff;
+    min-width: 70%;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+    float:left;
+    font-size: 22px;
+}
+
+/* Styles for the '.admin' class */
+.admin {
+border-radius: 10px;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+    height: auto;
+    padding: 10px 20px;
+    width: 250px;
+}
+
+/* Styles for the '.btn-success' class */
+.btn-success {
+border-radius: 10px;
+    width:120px;
+}
+
+/* Styles for the '.block' class */
+.block {
+/* Content BUTTON */
+    /* background-color:#CDDEEE; */
+    background-color:#abc9cd;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:170px;
+    min-width:170px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.tinyweblinkbutton' class */
+.tinyweblinkbutton {
+/* Content BUTTON */
+    background-color:#333333;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:200px;
+    min-width:20px; 
+    padding:2px 10px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.addnodebuttontiny' class */
+.addnodebuttontiny {
+/* Content BUTTON */
+    /* background-color:#0b0; */
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:30px;
+    min-width:30px; 
+    padding:5px 5px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.ledgendgreen' class */
+.ledgendgreen {
+/* Content BUTTON */
+    /* background-color:#0b0; */
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:450px;
+    min-width:120px; 
+    padding:5px 10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.ledgendaltlanguage' class */
+.ledgendaltlanguage {
+/* Content BUTTON */
+    /* background-color:#F89880; */
+
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:450px;
+    min-width:150px; 
+    padding:5px 10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.projectbuttons' class */
+.projectbuttons {
+/* Content BUTTON */
+    /* background-color:#ff3; */
+    background-color:#45954c;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    color:#fff;
+    height:auto;
+    max-width:150px;
+    min-width:90px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '.blocksmall' class */
+.blocksmall {
+/* PRIMARY BUTTON */
+    text-align:center;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:30px;
+    height:auto;
+    max-width:550px;
+    min-width:250px; 
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+
+/* Styles for the '/* TO DO: CHANGE NAME */
+/* To add a common word to a dataset of words to NOT SHOW 
+.common-word' element */
+/* TO DO: CHANGE NAME */
+/* To add a common word to a dataset of words to NOT SHOW */
+.common-word {
+color: white;
+    background-color: #f00;
+    border: none;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+    float:left;
+    font-size: 22px;
+	border-radius: 10px;
+}
+
+/* Styles for the '/* END BUTTONS */
+
+/* START TEXT 
+.footer-text' element */
+/* END BUTTONS */
+
+/* START TEXT */
+.footer-text {
+/* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* Styles for the '.largetext' class */
+.largetext {
+/* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Styles for the '.messagetext' class */
+.messagetext {
+/* Text Message Boxes */
+    font-size: 10px;
+    text-align: center;
+}
+
+/* Styles for the '/* 
+start of style for Cardview
+Each Class is Ordered by: 
+width - height - margin - padding - background color - font - font color - font size - BORDER - ALIGNMENT - other
+
+
+
+body' element */
+/* 
+start of style for Cardview
+Each Class is Ordered by: 
+width - height - margin - padding - background color - font - font color - font size - BORDER - ALIGNMENT - other
+*/
+
+
+body {
+/* background-color: #7bf; */
+    margin: .2em auto; 
+    //background-color: #7499c5; 
+    background-color: #000000;
+}
+
+/* Styles for the '.cardwidth' class */
+.cardwidth {
+max-width:70%;
+    min-width: 200px;
+    padding: 1px 1px 1px 1px;
+    /* margin: 0px;  */
+    margin: 2em auto; max-width:20%;
+        min-width: 200px;
+        padding: 1px 1px 1px 1px;
+        margin: 0px;
+}
+
+/* Styles for the '.myborder' class */
+.myborder {
+/* min-width: 100px; */
+    /* max-width: 400px; */
+    /* border: solid 1px #ccc; */
+    border: none;
+}
+
+/* Styles for the '.mypadding' class */
+.mypadding {
+padding:5px;
+}
+
+/* Styles for the '.card' class */
+.card {
+border: solid 1px;
+}
+
+/* Styles for the '.editnodebutton' class */
+.editnodebutton {
+width: auto;
+    padding: 3px 10px 3px 10px;
+    /* 7bf */
+    background-color: #00bfff;
+    font-size: 17px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+/* Styles for the '.card-columns' class */
+.card-columns {
+column-count: 6;
+}
+
+/* Styles for the '/* Define your CSS variables inside :root for global accessibility 
+        :root' element */
+/* Define your CSS variables inside :root for global accessibility */
+        :root {
+--primary-color: #7499c5; /* Example of a primary color variable */
+            --secondary-color: #2ecc71; /* Example of a secondary color variable */
+            --font-size-base: 16px; /* Example of a base font size variable */
+}
+
+/* Styles for the '/* form' element */
+
+ form {
+radius: 10px;
+}
+
+/* Styles for the '
+
+        .form-style' element */
+*/
+
+        .form-style {
+border-radius: 10px; /* Adjust the radius as needed */
+            border: 1px solid #000; /* Optional: just to make the form's border visible */
+            padding: 3px; /* Optional: for some internal spacing */
+            width: 320px; /* Optional: adjust as needed */
+            background-color: #48B0B0;
+}
+
+/* Styles for the '/* If you want to target <input> and <button> elements inside the form for a consistent look 
+        .form-style input, .form-style button' element */
+/* If you want to target <input> and <button> elements inside the form for a consistent look */
+        .form-style input, .form-style button {
+/* border-radius: 0px; Smaller radius for input fields and buttons */
+
+            margin: 5px 0; /* Optional: for spacing */
+            padding: 0px; /* Optional: for better touch */
+            font-size: 30px;
+
+            border-radius: 10px;
+
+            /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.15); /* Slightly scale up the logo */
+}
+
+/* Styles for the '/* .logoutbutton' element */
+/* .logoutbutton {
+Style your logout button as needed
+}
+
+/* Styles for the '
+
+        .blacktext' element */
+*/
+
+        .blacktext {
+color: #111111;
+            padding: 0px 10px 0px 0px;
+}
+
+/* Styles for the '.titletext' class */
+.titletext {
+color: #2f4866;
+            padding: 0px 10px 0px 0px;
+}
+
+/* Styles for the '/* main' element */
+/* main {
+background-color: #6388b4; /* Corrected color code
+}
+
+/* Styles for the '
+
+        main p' element */
+
+
+        main p {
+font-size: 24px; /* Paragraph text size */
+}
+
+/* Styles for the 'main h4' element */
+main h4 {
+font-size: 24px; /* Size for h4 headings */
+}
+
+/* Styles for the 'button, button img, img' element */
+button, button img, img {
+border: none; /* Removes border from buttons and images */
+            padding: 0; /* Removes padding inside buttons */
+            background: none; /* Removes default button background */
+
+            border-radius: 10px 10px 0px 0px;
+}
+
+/* Styles for the '.image-text-button' class */
+.image-text-button {
+display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1px;
+            /* background-color: #007bff; */
+            /* background-color: #FF6B6B; Coral */
+            background-color: #48B0B0; /* Teal */
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 5px;
+            width: 70%; /* You can adjust this width as needed */
+            max-width: 300px; /* Ensures the button doesn't exceed its parent container's width */
+            text-decoration: none;
+            font-size: 16px;
+            overflow: hidden; /* Ensures that content does not overflow the button boundaries */ /* Other styles remain the same */
+            background-color: #48B0B0; /* Teal */
+}
+
+/* Styles for the '.image-text-button img' class */
+.image-text-button img {
+max-width: 100%; /* Makes the image responsive */
+            height: auto; /* Maintains the aspect ratio */
+            margin-bottom: 10px;
+
+            /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.10); /* Slightly scale up the logo */
+}
+
+/* Styles for the '.image-text-button:hover' class */
+.image-text-button:hover {
+background-color: #0056b3; background-color: #3E9A9A; /* Slightly darker teal for hover effect */
+
+             /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.35); /* Slightly scale up the logo */
+}
+
+/* Styles for the '.image-text-button:active' class */
+.image-text-button:active {
+background-color: #004080; background-color: #358585; /* Even darker teal for active/click effect */
+}
+
+/* Styles for the '.button-link' class */
+.button-link {
+display: inline-block; /* Allows the application of padding and width */
+            padding: 1px 10px; /* Adjust padding to control the size of the button */
+            //background-color: #007bff; /* Button background color, adjust as needed */
+            background-color: #fff; /*Button background color, adjust as needed */
+            text-decoration: none; /* Removes the underline from the link */
+            border-radius: 8px; /* Rounded corners for the button */
+            font-size: 26px; /* Adjust font size as needed */
+            color: #222;
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Styles for the '.image-link' class */
+.image-link {
+/* display: inline-block; Allows the application of padding and width */
+            padding: 25px 20px; /* Adjust padding to control the size of the button */
+            background-color: #999; /*Button background color, adjust as needed */
+            /* background-color: #222; Button background color, adjust as needed */
+            /* text-decoration: none; Removes the underline from the link */
+            border-radius: 10px; /* Rounded corners for the button */
+            /* font-size: 16px; Adjust font size as needed */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Styles for the '.button-link:hover, .button-link:focus' class */
+.button-link:hover, .button-link:focus {
+background-color: #0056b3; /* Slightly darker shade for hover/focus effect */
+            color: #ffffff; /* Ensures text color remains consistent */
+            text-decoration: none; /* Keeps the link without underline on hover/focus */
+
+            /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.05); /* Slightly scale up the logo */
+}
+
+/* Styles for the '.button-link:active' class */
+.button-link:active {
+background-color: #004080; /* Even darker for the active state */
+            color: #ffffff; /* Ensures text color remains consistent during click */
+}
+
+/* Styles for the '.logo-link' class */
+.logo-link {
+transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+}
+
+/* Styles for the '.logo-link img' class */
+.logo-link img {
+transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+}
+
+/* Styles for the '.logo-link:hover img, .logo-link:focus img' class */
+.logo-link:hover img, .logo-link:focus img {
+opacity: 0.8; /* Slightly reduce opacity on hover/focus */
+            transform: scale(1.15); /* Slightly scale up the logo */
+}
+
+/* Styles for the '.logo-link:active img' class */
+.logo-link:active img {
+/* opacity: 0.6; Further reduce opacity on active to mimic a click effect */
+            transform: scale(0.95); /* Slightly scale down on click */
+}
+
+/* Styles for the '.divinline' class */
+.divinline {
+display: flex; /* Uncommented and corrected */
+                justify-content: space-between;
+}
+
+/* Styles for the '/* button' element */
+/* button {
+background-color: #dddddd;
+}
+
+/* Styles for the '/* 
+Common Style Elements
+Each Class is Ordered by: 
+width - height - margin - padding - background color - font - font color - font size - BORDER - ALIGNMENT - other
+
+
+.navgridbutton' element */
+/* 
+Common Style Elements
+Each Class is Ordered by: 
+width - height - margin - padding - background color - font - font color - font size - BORDER - ALIGNMENT - other
+*/
+
+.navgridbutton {
+width: 150px;
+    padding: 5px;
+    background-color: #7bf;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+/* Styles for the '.paypal' class */
+.paypal {
+max-width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Styles for the '@media screen and (min-width: 980px)' element */
+@media screen and (min-width: 980px) {
+
+}
+
+/* Styles for the '/* style from Admin 
+lines 348
+
+
+*' element */
+/* style from Admin 
+lines 348
+*/
+
+* {
+box-sizing: border-box;
+}
+
+/* Styles for the 'div.outercontainer' element */
+div.outercontainer {
+/*phone design*/
+    background-color: #dddddd;    
+    border-style: none;
+    border-width: 5px;
+    border-color: #000;
+    border-radius: 5px;
+    height: 900px;
+    max-width: 100%;
+    /* align:center; */
+    min-width: 100%;
+    margin: 5px;
+    padding: 10px 10px 0px 0px; 
+    /* box-shadow: 0px 0px 0px #AAAAAA;*/ /* phone design  */
+        /* align:center; */        
+        background-color: #fff;
+        border-color: #000;
+        border-style: solid;
+        border-radius: 50px;
+        border-width: 5px;      
+        /* box-shadow: 0px 0px 0px #AAAAAA;*/          
+        height: 870px;
+        margin: 20px;
+        max-width: 430px;
+        min-width:380px;
+        padding: 50px 0px 0px 0px;
+}
+
+/* Styles for the 'div.scrollcontainer' element */
+div.scrollcontainer {
+/* background-color: #fed9ff;  
+    scrolling content */
+    border-radius: 0px;
+    height: 830px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    /* align:center; */
+    padding: 0px; 
+    width: 100%; /* background-color: #fed9ff;  
+        scrolling content */
+        border-radius: 0px;
+        height: 730px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        /* align:center; */
+        padding: 30px; 
+        text-align: center;        
+        width: 420px;
+}
+
+/* Styles for the 'table.searchbox' element */
+table.searchbox {
+/* <table bgcolor="#669933" width="340px" align="center" > */
+    background-color: #45954c;
+    margin-left:auto; 
+    margin-right:auto;
+    padding: 20px;
+    width:300px;
+}
+
+/* Styles for the '.row::after' class */
+.row::after {
+clear: both;    
+    content: "";
+    display: table;
+}
+
+/* Styles for the '[class*="col-"]' element */
+[class*="col-"] {
+float: left;
+    padding: 15px;
+}
+
+/* Styles for the 'html' element */
+html {
+font-family: "Lucida Sans", sans-serif;
+}
+
+/* Styles for the '.menu ul' class */
+.menu ul {
+list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for the '.menu li' class */
+.menu li {
+padding: 8px;
+    margin-bottom: 7px;
+    /*  background-color: #33b5e5;*/
+    background-color:#A8E4EB;
+    /*color: #ffffff;*/
+    color: #003;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* Styles for the '.menu li:hover' class */
+.menu li:hover {
+background-color: #0099cc;
+}
+
+/* Styles for the '.aside' class */
+.aside {
+/* background-color: #33b5e5;*/
+    background-color:#A8E4EB;
+    padding: 15px;
+    /*color: #ffffff;*/
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+/* Styles for the '/* For mobile phones: 
+[class*="col-"]' element */
+/* For mobile phones: */
+[class*="col-"] {
+width: 100%;
+}
+
+/* Styles for the '.buttonwide' class */
+
+.buttonwide {
+/* WIDE PRIMARY BUTTON */
+    /* background-color: #2985E4; */ 
+    /* background-color: #E68027; */
+    background-color: #45954c;
+    border-radius: 0px;
+    display: block;
+    font-size: 46px;
+    height: 120px;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    width: 40%;
+}
+
+/* Styles for the '.buttonnav' class */
+.buttonnav {
+/* BREADCRUMB BUTTONS */
+    background-color:#A6F1FD;
+    border: none; 
+    display: inline-block;
+    font-size: 20px;
+    height:40px;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    width:80%;
+}
+
+/* Styles for the '.buttonadd' class */
+.buttonadd {
+/* ADD TOPIC BUTTON */
+    /* background-color:#099; */
+    /* 6acd75 */
+    /* background-color: #0bb; */
+    background-color: #6acd75;
+    border: 3px;
+    border-radius: 10px;    
+    display: block;
+    font-size: 20px;
+    height: auto;
+    /* border: none; */
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+/* Styles for the '.buttonselect' class */
+.buttonselect {
+/* PRIMARY SELECTION BUTTON */
+    background-color:#363;
+    border: 3px;
+    border-radius: 10px;
+    color:#FFF; 
+    display: block;
+    font-size: 20px;
+    height: auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 80%;
+}
+
+/* Styles for the '.ahref' class */
+.ahref {
+/* EDIT BUTTON */
+    background-color:#0099cc;
+    border: 3px;
+    border-radius: 5px;
+    color:#fff; 
+    display: block;
+    font-size: 20px;
+    height: auto;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+/* Styles for the '.ahrefred' class */
+.ahrefred {
+/* DELETE BUTTON */
+    background-color:#e00;
+    border: 3px;
+    border-radius: 5px;
+    color:#FFF; 
+    display: block;
+    font-size: 20px;  
+    height: auto;    
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    width: auto;
+}
+
+/* Styles for the '/* testing the effects 
+
+    body' element */
+/* testing the effects */
+
+    body {
+background-color: #111; 
+            margin: 2em auto; 
+            width: 500px;
+}
+
+/* Styles for the '/* For mobile: 
+    .col-1' element */
+/* For mobile: */
+    .col-1 {
+width: 8.33%;
+}
+
+/* Styles for the '.col-2' class */
+.col-2 {
+width: 16.66%;
+}
+
+/* Styles for the '.col-3' class */
+.col-3 {
+width: 25%;
+}
+
+/* Styles for the '.col-4' class */
+.col-4 {
+width: 33.33%;
+}
+
+/* Styles for the '.col-5' class */
+.col-5 {
+width: 41.66%;
+}
+
+/* Styles for the '.col-6' class */
+.col-6 {
+width: 50%;
+}
+
+/* Styles for the '.col-7' class */
+.col-7 {
+width: 58.33%;
+}
+
+/* Styles for the '.col-8' class */
+.col-8 {
+width: 66.66%;
+}
+
+/* Styles for the '.col-9' class */
+.col-9 {
+width: 75%;
+}
+
+/* Styles for the '.col-10' class */
+.col-10 {
+width: 83.33%;
+}
+
+/* Styles for the '.col-11' class */
+.col-11 {
+width: 91.66%;
+}
+
+/* Styles for the '.col-12' class */
+.col-12 {
+width: 100%;
+}
