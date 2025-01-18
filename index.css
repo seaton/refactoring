@@ -1,0 +1,219 @@
+        /* Define your CSS variables inside :root for global accessibility */
+        :root {
+            --primary-color: #7499c5; /* Example of a primary color variable */
+            --secondary-color: #2ecc71; /* Example of a secondary color variable */
+            --font-size-base: 16px; /* Example of a base font size variable */
+        }
+
+        body {
+            /* background-color: #7499c5; */
+            background-color:  var(--primary-color);
+            /* background-image: url('your-background-image.jpg'); Uncomment and replace with your image URL if needed */
+            /* Other background properties can be uncommented and adjusted as needed */
+        }
+
+        /* form{
+            radius: 10px;
+        } */
+
+        .form-style {
+            border-radius: 10px; /* Adjust the radius as needed */
+            border: 1px solid #000; /* Optional: just to make the form's border visible */
+            padding: 3px; /* Optional: for some internal spacing */
+            width: 320px; /* Optional: adjust as needed */
+            background-color: #48B0B0; 
+        }
+
+        /* If you want to target <input> and <button> elements inside the form for a consistent look */
+        .form-style input, .form-style button {
+            /* border-radius: 0px; Smaller radius for input fields and buttons */
+
+            margin: 5px 0; /* Optional: for spacing */
+            padding: 0px; /* Optional: for better touch */
+            font-size: 30px;
+
+            border-radius: 10px;
+
+            /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.15); /* Slightly scale up the logo */   
+        }
+
+        /* .logoutbutton { 
+            Style your logout button as needed
+        } */
+
+        .blacktext {
+            color: #111111;
+            padding: 0px 10px 0px 0px;
+        }
+
+        .titletext {
+            color: #2f4866;
+            padding: 0px 10px 0px 0px;
+        }
+
+        /* main {
+            background-color: #6388b4; /* Corrected color code 
+        } */
+
+        main p {
+            font-size: 24px; /* Paragraph text size */
+        }
+
+        main h4 {
+            font-size: 24px; /* Size for h4 headings */
+        }
+        button {
+            border: none; /* Removes border from buttons and images */
+            padding: 0; /* Removes padding inside buttons */
+            background-color: #444;
+        }
+
+        button, button img, img {
+            border: none; /* Removes border from buttons and images */
+            padding: 0; /* Removes padding inside buttons */
+            background: none; /* Removes default button background */
+
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        button {
+            background-color: #dddddd;
+        }        
+
+        h1 {
+            color: #7096c3;
+            font-size: 40px; /* Corrected property name from 'text-size' to 'font-size' */
+        }
+
+        p {
+            line-height: 50px; /* Corrected property name from 'text-height' to 'line-height' */
+        }
+
+        .image-text-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1px;
+            /* background-color: #007bff; */
+            /* background-color: #FF6B6B; Coral */
+            background-color: #48B0B0; /* Teal */
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            border-radius: 5px;
+            width: 70%; /* You can adjust this width as needed */
+            max-width: 300px; /* Ensures the button doesn't exceed its parent container's width */
+            text-decoration: none;
+            font-size: 16px;
+            overflow: hidden; /* Ensures that content does not overflow the button boundaries */
+        }
+
+        .image-text-button img {
+            max-width: 100%; /* Makes the image responsive */
+            height: auto; /* Maintains the aspect ratio */
+            margin-bottom: 10px;
+
+            /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.10); /* Slightly scale up the logo */   
+
+        }
+
+        .image-text-button:hover {
+            background-color: #0056b3;
+        }
+
+        .image-text-button:active {
+            background-color: #004080;
+        }
+
+        .button-link {
+            display: inline-block; /* Allows the application of padding and width */
+            padding: 1px 10px; /* Adjust padding to control the size of the button */
+            //background-color: #007bff; /* Button background color, adjust as needed */
+            background-color: #fff; /*Button background color, adjust as needed */
+            text-decoration: none; /* Removes the underline from the link */
+            border-radius: 8px; /* Rounded corners for the button */
+            font-size: 26px; /* Adjust font size as needed */
+            color: #222;
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .image-link {
+            /* display: inline-block; Allows the application of padding and width */
+            padding: 25px 20px; /* Adjust padding to control the size of the button */
+            background-color: #999; /*Button background color, adjust as needed */
+            /* background-color: #222; Button background color, adjust as needed */
+            /* text-decoration: none; Removes the underline from the link */
+            border-radius: 10px; /* Rounded corners for the button */
+            /* font-size: 16px; Adjust font size as needed */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+
+        .button-link:hover, .button-link:focus {
+            background-color: #0056b3; /* Slightly darker shade for hover/focus effect */
+            color: #ffffff; /* Ensures text color remains consistent */
+            text-decoration: none; /* Keeps the link without underline on hover/focus */
+
+            /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.05); /* Slightly scale up the logo */   
+        }
+
+        .button-link:active {
+            background-color: #004080; /* Even darker for the active state */
+            color: #ffffff; /* Ensures text color remains consistent during click */
+        }
+
+        .image-text-button {
+            /* Other styles remain the same */
+            background-color: #48B0B0; /* Teal */
+        }
+
+        .image-text-button:hover {
+            background-color: #3E9A9A; /* Slightly darker teal for hover effect */
+
+             /* Experiment */
+            /* opacity: 0.6; Slightly reduce opacity on hover/focus */
+            transform: scale(1.35); /* Slightly scale up the logo */            
+        }
+
+        .image-text-button:active {
+            background-color: #358585; /* Even darker teal for active/click effect */
+        }
+
+        .logo-link {
+            transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+        }
+
+        .logo-link img {
+            transition: transform 0.3s ease, opacity 0.3s ease; /* Smooth transition for transform and opacity */
+        }
+
+        .logo-link:hover img, .logo-link:focus img {
+            opacity: 0.8; /* Slightly reduce opacity on hover/focus */
+            transform: scale(1.15); /* Slightly scale up the logo */
+        }
+
+        .logo-link:active img {
+            /* opacity: 0.6; Further reduce opacity on active to mimic a click effect */
+            transform: scale(0.95); /* Slightly scale down on click */
+        }
+
+        @media (min-width: 868px) {
+
+        .divinline {
+                display: flex; /* Uncommented and corrected */
+                justify-content: space-between;
+            } 
+
+        /* button {
+                background-color: #dddddd;
+            } */
+        }      
+
+    /* <!-- Additional custom styles can be linked here --> */
+    /* <!-- <link href="testingpages/cover.css" rel="stylesheet"> --> */

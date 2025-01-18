@@ -1,0 +1,909 @@
+/* 
+lines 916
+LAYOUT STYLE 
+START LAYOUT STRUCTURE 
+
+
+*/
+body{
+    width: 100%; 
+    /* margin: 2em auto; 
+    border-radius: 60px; */
+    /* border: 10px solid lightgrey; */
+    /* font: 1em/1.3 Arial, Helvetica, sans-serif; */   
+    background-color: #ccc; 
+    text-align:center;
+    padding: 10px 30px 10px 30px;
+ 
+    }
+.logoutbutton{
+    width: 120px;
+    background-color: red;
+    color: white;
+}
+.logodesign{
+    width: 200px;
+    margin: 5px 20px 10px 0px;
+    border-radius: 4px;
+}
+
+/* TO DO: CHANGE NAME */
+div.primary{
+    width:auto;
+    background-color: #aaa;
+    padding: 10px 30px 10px 30px;
+    text-align:center;
+    }
+
+div.topofpageheader{
+
+    /* background-color: #999; */
+    padding: 10px 30px 10px 30px;
+
+}
+div.screen-top{
+    height:50px;
+    background-color:#444;
+    border-radius:50px 50px 0px 0px;
+    text-align:center;
+}
+
+
+img{
+    width:55%;
+    /* radius:2px; */
+    border-radius:4px;
+    }
+input{
+    width:10%;
+    border-radius:4px;
+    }
+table{
+    text-align:center;
+    width:90%;
+    }
+p{
+    text-align:center;
+}
+.center{
+    margin-left:auto;
+    margin-right:auto;
+    }
+div.center{
+    text-align:center;
+}
+div.left{
+    text-align:left;
+}
+td {
+    width:50px;
+}
+td.center{
+    text-align:center;
+}
+td.search{
+    height:auto;
+    padding: 10px;
+    background-color:#CDDEEE;
+    border: 2px solid #006;
+    }
+hr{
+    height:2px;
+    background-color:#2A547E;
+} 
+.hr-blue{
+    height:6px;
+    background-color:#2A547E;
+} 
+.hr-blue-3px{
+    height:2px;
+    background-color:#2A547E;
+} 
+/* TO DO: CHANGE NAME */
+.hr1{
+    /* used between the DRILLDOWN STEPS */
+    }
+/* TO DO: CHANGE NAME */
+.hr5{
+    /* used between the drilldown steps */
+} 
+
+/* END STRUCTURE */
+
+/* START BUTTONS */
+.admin{
+    width: 250px;
+    height: 65px;
+    border-radius: 10px;
+    /* display: inline-block; */
+    font-size: 45px;
+    text-align: center;
+    }
+/* TO DO: CHANGE NAME */
+.block{
+    /* PRIMARY BUTTON */
+    max-width:100px;
+    min-width:40px; 
+    height:auto;
+    padding:3px 5px;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:10px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+    }
+.newgreen{
+    max-width:100px;
+    min-width:40px; 
+    height:auto;
+    padding:3px 5px;
+    /* Content BUTTON */
+    /* background-color:#0b0; */
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+    } 
+.tinyphotobutton{
+    /* Content BUTTON */
+    max-width:100px;
+    min-width:20px; 
+    height:auto;
+    padding:2px 6px;
+    margin: 0px 0px 5px 0px;
+    background-color:#eee;
+    border:1px solid;
+    border-color: black;
+    border-radius:2px;
+    display:block;
+    font-size:8px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+.addnodebutton{
+    /* Content BUTTON */
+    /* background-color:#0b0; */
+    min-width:20px; 
+    max-width:20px;
+    min-height:20px;
+    max-height:20px;
+    padding:2px;
+    margin: 0px 0px 0px 5px;
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:2px;
+    display:block;
+    font-size:8px;
+    text-align:center;
+    vertical-align: middle;
+    text-decoration:none;
+    white-space:normal; 
+    /*word-wrap: normal;*/
+    word-wrap:break-word; 
+}
+/* TO DO: CHANGE NAME */
+.blocksmall{
+    /* PRIMARY BUTTON ALT LANGUAGE */
+    max-width:250px;
+    min-width:180px;
+    height:auto;
+    padding:10px 20px;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:50px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal;
+    word-wrap:break-word;
+    }
+.altlangbutton{
+    /* Content BUTTON */
+    /* background-color:#F89880; */
+    max-width:100px;
+    min-width:40px; 
+    height:auto;
+    padding:3px 5px;
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+    }
+/* TO DO: CHANGE NAME */
+.manualadd{
+    min-width:70%;
+    height: 50px;
+    padding: 10px 10px;
+    background-color: #397AD3;
+	color:#FFF;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    }	
+.add-suggested-term{  
+    min-width: 70%;
+    height: auto;
+    padding: 10px 10px;
+    margin: 0 auto;
+    background-color: #397AD3;
+    border: none;
+    border-radius: 10px;
+    color:#ffffff;
+    display:inline;
+    float:left;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: none;
+    }
+/* To add a common word to a dataset of words to NOT SHOW */
+.common-word { 
+    margin: 0 0 0 20px;
+    padding: 10px 12px;
+    background-color: #f00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display:inline;  
+    float:left;
+    font-size: 45px;    
+    text-align: center;
+    text-decoration: none;	
+    }
+.reset-button{
+    width:auto;
+    height: auto;
+    padding:10px 20px;
+    background-color:#2A547E;
+    border-width:1px;
+    border-color:black;
+    border-radius:20px;
+    color: white;
+    display:inline-block;
+    font-size:35px;
+    text-align:center;
+    text-decoration:none;
+    }
+/* TO DO: CHANGE NAME */
+.button6{
+    /* BREADCRUMBS */
+    max-width:550px;
+    min-width:350px;
+    height:auto;
+    padding: 10px 10px;
+    background-color: #2A547E;
+    border-width: 1px;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 40px;
+    text-align: center;
+    white-space: normal;
+    }
+/* TO DO: CHANGE NAME */
+.buttonnodeimage{  
+    width:100%;
+    height: auto;     
+    /*background-color: #C00;	*/
+    }
+/* TO DO: CHANGE NAME */  
+.adminbutton{
+    /* TRYING TO JUST DO ADMIN BUTTON */
+    width: auto;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-align: center;
+    }
+.home-style-button{
+    /* used in the HOME BUTTON INPUT */
+    width: 180px;
+    background-color: purple;
+    border-radius:10px;
+    border-width:0px;
+    }
+.show-hide-add-topic{
+    /* used in the MANUAL TERM BUTTON TO SHOW OR HIDE FEATURE */
+    width: auto;
+    height:auto;
+    padding: 1px 10px;
+    /* background-color: #005; */
+    background-color: #254b70;
+    border-radius:10px;
+    color: white;
+    /*content-align: center;*/
+	display: inline-block;  
+    font-size: 30px;	
+    text-align:center;
+    }       
+/* TO DO: CHANGE NAME */     
+.styletogglebutton {
+    /* Toggle between STYLE OPTIONS */
+    width: 500px;
+    height: 50px; 
+    float: left;
+    font-size: 30px;    	
+    text-align: center;
+    /* border-width:thick;*/
+    /* border-top-color:#000; */
+    /* padding: 5px, 5px, 5px, 5px; */
+    /* white-space: normal;*/
+    }
+
+/* END BUTTONS */
+
+/* START TEXT */	
+
+.textfieldlarge{
+    width:80%;   
+    border: 2px solid #397AD3;
+    font-size: 30px;
+    }		
+.tag-line{
+    min-width: 100px;
+    height:auto;
+    padding: 10px 10px;
+    background-color:#FFF;
+    border: none;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    }
+/* TO DO: CHANGE NAME */
+.adminbuttonold{
+    /* TRYING TO JUST DO ADMIN BUTTON */
+    width: 100px;
+    /* width: auto; */
+    /* height: auto;    */
+    padding: 5px 10px;
+    /*background-color: #C00;	*/
+    border-width: thick;
+    border-top-color: #000;
+    font-size: 40px;
+    text-align: center;
+    white-space: normal; 
+    }
+.footer-text{
+    /* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 54px;
+    text-align: center;
+    }
+/* TO DO: CHANGE NAME */
+.largetext {
+    /* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 54px;
+    text-align: center;
+    }
+.large-red-text{
+    color: #f00;
+    text-align: center;
+    font-size: 40px;
+    }
+ /* TO DO: CHANGE NAME also on Include Files */   
+.messagetext {
+    /* Instructions */
+	font-size: 40px;
+    text-align: center;
+    }
+.message-text {
+    /* Destination, Google Text, Google Images */
+	font-size: 70px;
+    text-align: center;
+    }
+/* END TEXT */	
+
+/* TRASH ??? 
+#container div{
+    display: inline-block;
+    width: 400px;
+    align-content: center;
+    }*/
+.submissionfield {
+    width: 80%; height: 50px; border: 1px solid #999999; padding: 5px; 
+    }
+/* END TRASH ??? */
+
+/* LARGE SCREEN *************************************** LARGE SCREEN *************************************** LARGE SCREEN **************** */
+/* Modify styles above and add new styles IF the the screen is larger than mobile */
+
+@media only screen and (min-width: 1008px) {
+
+/* START STRUCTURE */
+body{  
+    width: 100%;
+    /* margin: 2em auto; */
+    /* border-radius: 60px; */
+    /* border: 10px solid lightgrey; */
+    /* font: 1em/1.3 Arial, Helvetica, sans-serif; */ 
+    /* background-color: #999;  */
+     
+    padding:  0px 0px 0px 0px; 
+    }
+.logoutbutton{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    width: 120px;   
+}
+
+
+/* TO DO: CHANGE NAME */
+div.primary{
+    /* opacity: 0.5; */
+    margin: 0px 0px 0px 0px;
+    padding:  30px 30px 30px 30px;
+    /* background-color: #888; 
+    background-color: #fed9ff;
+    background-color: #fff; */
+    /* background-color: #7499c5; 
+    
+    background-image: url('https://www.webnav.org/testingpages/dunbeach.jpg');
+    */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    }
+.transparent-style{
+    background-color: #ffffff;
+    opacity: .4;
+}
+div.topofpageheader{
+    margin: 0px 0px 0px 0px;
+    padding:  0px 0px 0px 0px;
+    /* background-color: #555;
+    background-color: rgba(100, 100, 100, 0.5); */
+}
+div.scroll{
+    width: 100%;
+    height: 590px;
+    margin: 2em auto;
+    /* margin: 10px 10px 10px 10px; */
+
+
+    /* background-color: #fed9ff;  */
+    
+    /* background-color:  #ddd; */
+
+    /* This is a way to control opacity */
+    /* background-color: rgba(100, 100, 100, 0.2); */
+
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+    border-radius: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: center;
+    }
+
+img{
+    width:300px;
+    /* radius:2px; */
+    border-radius:20px;
+    }
+
+/* TO DO: CHANGE NAME */
+div.sub{
+    width: 450px;
+    height: 800px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #000;
+    border-radius: 50px;
+    margin: 50px;
+    /* box-shadow: 0px 0px 0px #AAAAAA;*/
+    padding: 50px 0px 0px 0px;
+    background-color: #fff;
+    }
+/* TO DO: CHANGE NAME */
+div.tiny {
+    background-color: #888;
+    border-color: #999;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 0px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    width: 390px;
+    /*box-shadow: 0px 0px 5px #AAAAAA;*/
+    }
+div.buttonsinarow{
+    display:inline-block;
+    }
+div#frm *{display:inline}
+td {
+    width:150px;
+}
+
+/* END STRUCTURE */
+
+/* START BUTTONS */
+
+/* TO DO: CHANGE NAME */
+.add-suggested-term { 
+    background-color: #397AD3;
+	color:#ffffff;
+    min-width: 70%;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+    float:left;
+    font-size: 22px;
+}
+.admin{
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+    height: auto;
+    padding: 10px 20px;
+    width: 250px;
+}
+.gohomebutton{
+    background-color: #7bf;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: center;
+    width: 120px;
+}
+.btn-success{
+    border-radius: 10px;
+    width:120px;
+}
+.block{
+    /* Content BUTTON */
+    /* background-color:#CDDEEE; */
+    background-color:#abc9cd;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:170px;
+    min-width:170px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+.altlangbutton{
+    /* Content BUTTON */
+    /* background-color:#F89880; */
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:170px;
+    min-width:170px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+.newgreen{
+    /* Content BUTTON */
+    /* background-color:#0b0; */
+
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:170px;
+    min-width:170px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+    } 
+
+.tinyphotobutton{
+    /* Content BUTTON */
+    background-color:#eee;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:200px;
+    min-width:20px; 
+    padding:2px 10px;
+    margin: 0px 0px 5px 0px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+.tinyweblinkbutton{
+    /* Content BUTTON */
+    background-color:#333333;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:200px;
+    min-width:20px; 
+    padding:2px 10px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+
+}
+.addnodebuttontiny{
+        /* Content BUTTON */
+    /* background-color:#0b0; */
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:30px;
+    min-width:30px; 
+    padding:5px 5px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+}
+.ledgendgreen{
+    /* Content BUTTON */
+    /* background-color:#0b0; */
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:450px;
+    min-width:120px; 
+    padding:5px 10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+} 
+.addnodebutton{
+    background-color:#7abe80;
+    border:1px solid;
+    border-color: black;
+    border-radius:6px;
+    display:block;
+    font-size:20px;
+    min-height:40px;
+    max-height:40px;
+    min-width:40px; 
+    max-width:40px;
+    padding:1px;
+    margin: 0px 0px 0px 15px;
+    /* word-wrap:break-word;  */
+}
+
+.ledgendaltlanguage{
+    /* Content BUTTON */
+    /* background-color:#F89880; */
+
+    background-color:#ffbdbd;
+    border:1px solid;
+    border-color: black;
+    border-radius:4px;
+    display:block;
+    font-size:15px;
+    height:auto;
+    max-width:450px;
+    min-width:150px; 
+    padding:5px 10px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+
+    }
+.projectbuttons{
+    /* Content BUTTON */
+    /* background-color:#ff3; */
+    background-color:#45954c;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:15px;
+    color:#fff;
+    height:auto;
+    max-width:150px;
+    min-width:90px; 
+    padding:10px 20px;
+    text-align:left;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+    }
+.blocksmall{
+    /* PRIMARY BUTTON */
+    text-align:center;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:30px;
+    height:auto;
+    max-width:550px;
+    min-width:250px; 
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    /*word-wrap: normal;*/
+    }
+/* TO DO: CHANGE NAME */
+.button6 {
+    /* BREADCRUMBS */
+    height: auto;
+    background-color: #2A547E;
+    /* background-color: #C00;	*/	
+    border-width: 1px;
+    color: #FFF;
+       max-width:550px;
+    min-width:250px; 
+    padding: 10px 20px;
+    text-align: center;
+    white-space: normal;
+    font-size: 25px;
+    border-radius: 15px;
+    word-wrap:break-word;
+    }
+/* TO DO: CHANGE NAME */
+/* To add a common word to a dataset of words to NOT SHOW */
+.common-word{  
+    color: white;
+    background-color: #f00;
+    border: none;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+    float:left;
+    font-size: 22px;
+	border-radius: 10px;
+    }	
+.home-style-button{
+    /* used in the HOME BUTTON INPUT */
+    background-color: #ffffff;
+    border-color:#800;
+    border-radius:0px;
+    border-width:0px;
+    width: 80px;
+    }
+.reset-button{
+    border-width:1px;
+    border-color:black;
+    border-radius:10px;
+    display:inline-block;
+    font-size:15px;
+    height: auto;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    width:auto;
+    }
+.show-hide-add-topic{
+    /* TO SHOW OR HIDE MANUAL & SUGGESTION TERMS BUTTON GRID*/
+    color: white;
+    width: auto;
+    height:auto;
+    background-color: #254b70;	
+    text-align: center;
+    font-size: 30px;
+    display: inline-block;
+    border-radius:10px;
+    padding:10px 20px;
+    /* background-color: #005;*/
+    }
+
+ /* END BUTTONS */
+
+/* START TEXT */
+.footer-text{
+    /* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    }
+.large-red-text{
+    color: #f00;
+    font-size: 24px;
+    text-align: center;
+    }    
+.largetext {
+    /* used in the FOOTER, GOOGLE TEXT AND IMAGES*/
+    color: #000;
+    font-size: 30px;
+    text-align: center;
+    }
+.messagetext{
+    /* Text Message Boxes */
+    font-size: 10px;
+    text-align: center;
+    }     
+.message-text{
+    /* Destination, Google Text, Google Images */
+    font-size: 50px;
+    text-align: center;
+    }
+.tag-line{
+    background-color:#fff;
+    border: none;
+    border-radius:4px;
+    font-size:15px;
+    height:auto;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    }
+}
+/* END TEXT */
+
+/* LAYOUT STYLE**********************STYLE**********************STYLE**********************STYLE **********************STYLE********************** */

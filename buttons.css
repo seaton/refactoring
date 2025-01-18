@@ -1,0 +1,265 @@
+/* START BUTTONS */
+/* lines 264 */
+.admin{
+    border-radius: 10px;
+    /* display: inline-block; */
+    font-size: 25px;
+    text-align: center;
+    height: 65px;
+    width: 250px;
+    }
+.block{ 
+    background-color:#CDDEEE;
+    border:2px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:20px;
+    height:auto;
+    max-width:350px;
+    Min-width:100px; 
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    }
+.blocksmall{
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:30px;
+    height:auto;
+    max-width:550px;
+    min-width:350px;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    white-space:normal;
+    word-wrap:break-word;
+    }
+.manualadd{
+    background-color: #397AD3;
+	color:#FFF;
+    border-radius: 20px;
+	min-width:70%;
+    height: 50px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    }	
+.add-suggested-term{  
+    background-color: #397AD3;
+    border: none;
+    border-radius: 10px;
+    color:#ffffff;
+    display:inline;
+    float:left;
+    font-size: 45px;
+    height: auto;
+    margin: 0 auto;
+    min-width: 70%;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    }
+.common-word {    
+    background-color: #f00;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    display:inline;  
+    float:left;
+    font-size: 45px;    
+    margin: 0 0 0 20px;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;	
+    }
+.reset-button{
+    background-color:#2A547E;
+    border-width:1px;
+    border-color:black;
+    border-radius:20px;
+    color: white;
+    display:inline-block;
+    font-size:35px;
+    height: auto;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    width:auto;
+    }
+.button6{
+    /* BREADCRUMBS */
+    background-color: #2A547E;
+    border-width: 1px;
+    border-radius: 1px;
+    color: #FFF;
+    font-size: 30px;
+    height:auto;
+    max-width:550px;
+    min-width:350px;
+    padding: 10px 10px;
+    text-align: center;
+    white-space: normal;
+    }
+.buttonnodeimage{
+    height: auto;     
+    width:100%;
+    } 
+.adminbutton{
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 10px;
+    width: auto;
+    }
+.home-style-button{
+    background-color:#000;
+    border-radius:10px;
+    border-width:0px;
+    width: 180px;
+    }
+.show-hide-add-topic{
+    background-color: #254b70;
+    border-radius:10px;
+    color: white;
+	display: inline-block;  
+    font-size: 30px;	
+	height:auto;
+    padding: 1px 10px;
+    text-align:center;
+    width: auto;
+    }           
+.styletogglebutton {
+    float: left;
+    font-size: 30px;  
+    height: 50px;     	
+    text-align: center;
+    width: 500px;
+    }
+/* END BUTTONS */
+
+/* LARGE SCREEN *************************************** LARGE SCREEN ******************************** */
+@media only screen and (min-width: 1008px) {
+
+/* START BUTTONS */
+.add-suggested-term { 
+    background-color: #397AD3;
+	color:#ffffff;
+    min-width: 70%;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+    float:left;
+    font-size: 22px;
+    }
+.admin{
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 35px;
+    text-align: center;
+    height: auto;
+    padding: 10px 20px;
+    width: 250px;
+    }
+.block{
+    text-align:center;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:1px;
+    display:block;
+    font-size:30px;
+    height:auto;
+    max-width:550px;
+    min-width:350px; 
+    padding:10px 20px;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    }
+.blocksmall{
+    text-align:center;
+    background-color:#CDDEEE;
+    border:1px solid;
+    border-color: black;
+    border-radius:10px;
+    display:block;
+    font-size:30px;
+    height:auto;
+    max-width:550px;
+    min-width:250px; 
+    padding:10px 20px;
+    text-decoration:none;
+    white-space:normal; 
+    word-wrap:break-word;  
+    }
+.button6 {
+    height: auto;
+    background-color: #2A547E;	
+    border-width: 1px;
+    color: #FFF;
+    max-width:550px;
+    min-width:250px; 
+    padding: 10px 20px;
+    text-align: center;
+    white-space: normal;
+    font-size: 25px;
+    border-radius: 1px;
+    word-wrap:break-word;
+    }
+.common-word{  
+    color: white;
+    background-color: #f00;
+    border: none;
+    padding: 10px 12px;
+    text-align: center;
+    text-decoration: none;
+    display:inline;
+    margin: 0 auto;
+    float:left;
+    font-size: 22px;
+	border-radius: 10px;
+    }	
+.home-style-button{
+    background-color: #ffffff;
+    border-color:#800;
+    border-radius:0px;
+    border-width:0px;
+    width: 80px;
+    }
+.reset-button{
+    border-width:1px;
+    border-color:black;
+    border-radius:10px;
+    display:inline-block;
+    font-size:15px;
+    height: auto;
+    padding:10px 20px;
+    text-align:center;
+    text-decoration:none;
+    width:auto;
+    }
+.show-hide-add-topic{
+    color: white;
+    width: auto;
+    height:auto;
+    background-color: #254b70;	
+    /* content-align: center; */
+    font-size: 30px;
+    display: inline-block;
+    border-radius:10px;
+    padding:10px 20px;
+    }
+ /* END BUTTONS */
+}

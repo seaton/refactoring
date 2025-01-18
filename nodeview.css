@@ -1,0 +1,245 @@
+
+/* 
+Ordered by: width - height - margin - padding - background color - font color - border - font - alignment 
+*/
+
+* {
+    box-sizing: border-box;
+}
+div.center{
+    /* content-align:center; */
+    content: align-center;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 25px;
+}
+body{
+    background:#bbbbbb;
+}
+.gobacktolayout {
+    max-width: 205px;
+    height: auto;
+    padding: 5px 15px;
+    background-color: blue;
+    color:#fff;
+    border: 1px;
+    border-radius: 5px;
+    text-align: center; 
+    font-size: 22px;
+}
+.paypal{
+    min-width: 100px;
+    max-width: 150px;
+    /* margin: auto; */
+    text-align: center; 
+}
+.logodesign{
+    border-radius: 4px;
+    width: 180px;
+    margin: 5px 20px 10px 0px;
+}
+.logoutbutton {
+    /* LOGOUT BUTTON  */
+    width: 120px;
+    height: auto;
+    padding: 5px 7px;
+    background-color: red;
+    color:#fff;
+    border: 1px;
+    border-radius: 10px;
+    text-align: center; 
+    font-size: 15px;
+}
+label {
+    background-color: indigo;
+    color: white;
+    padding: 0.5rem;
+    font-family: sans-serif;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+#file-chosen{
+    margin-left: 0.3rem;
+    font-family: sans-serif;
+}
+div#frm *{display:inline}
+    
+.buttonadminsubmit{
+    background-color: #2A547E;
+    color: #FFF;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    height:auto;
+    /* max-width:300px;
+    min-width:200px; */
+
+    width: auto;
+    padding: 10px 10px;
+    text-align: center;
+    white-space: normal;
+}   
+.uploadfilebutton{
+    background-color: #026440;
+    color: #FFF;
+    border-width: 1px;
+    border-radius: 10px;
+    font-size: 20px;
+    height:auto;
+    /* max-width:300px;
+    min-width:200px; */
+    width: auto;
+    padding: 10px 10px;
+    text-align: center;
+    white-space: normal; 
+}
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+.cardwidth{
+    min-width: 460px;
+    max-width: 90%;
+    margin: 5px 15px 5px 15px; 
+    padding: 25px 25px 55px 25px;
+    background:#bbbbbb;
+}
+.ahrefred{
+    /* used in the primary SELECTION BUTTON */
+    /* width: 70%; */
+    width: auto;
+    height: 40px;
+    padding: 10px 15px;
+    background-color:#a00;
+    color:#FFF; 
+    border: 3px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+}
+.header {
+    padding: 15px;
+    background-color: #6384af;
+    color: #000000;  
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    margin-bottom: 7px;
+    padding: 8px;
+    background-color:#abc9cd;
+    color: #003;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color:#abc9cd;
+    /*
+    background-color: #0099cc;
+    */
+}
+.aside {
+    margin: 20px;
+    padding: 21px;
+    background-color:#abc9cd;
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.asidegreen {
+    padding: 15px;
+    /* wordle color is 6aaa64 */
+    background-color:#7abe80;
+    color: #000000; 
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.asidered {
+    padding: 15px;
+    background-color:#ffbdbd;
+    color: #000000;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    padding: 15px;
+    background-color: #6384af;
+    color: #ffffff;
+    text-align: center;
+    font-size: 24px;  
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+
+textarea {
+    width: 90%; /* Adjust width as a percentage */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    padding: 10px;
+}
+
+@media (min-width: 500px) and (max-width: 600px) { 
+    .hidebutton{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 968px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    }
+    body{
+        background-color: #7499c5;
+    }
+    .hidebutton{
+        display: inline-block;
+    }
+    .aside {
+        margin: 0px;
+        padding: 1px;
+        background-color:#abc9cd;
+        color: #000000;
+        text-align: center;
+        font-size: 14px;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    }
+
+    div.center{
+        text-align:center;
+    }
+    .cardwidth{
+        max-width:100%;
+        min-width: 20%;
+        margin: 5px 0px;
+        background-color: #7499c5; 
+        padding: 5px 10px 5px 10px;
+    }
+    .container{
+        background-color: #7499c5;
+    }
+}
